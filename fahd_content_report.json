@@ -1,0 +1,1792 @@
+{
+  "report_metadata": {
+    "prepared_by": "فهد (خبير استخراج المحتوى وتنظيم البيانات واختيار الصور)",
+    "prepared_for": "ياسر (خبير تطوير الواجهات وتصميم UX/UI) ومدير الفريق",
+    "generated_at": "2026-11-13T18:22:51.310123+00:00",
+    "total_posts_analyzed": 7,
+    "original_6_urls_status": "تم استخراج جميع الروابط الـ 6 بنجاح 100% + إعلان سابع إضافي للمهندس في الرياض من حسابه الرسمي",
+    "total_images_verified": 63,
+    "all_images_http_200": true
+  },
+  "engineer_profile": {
+    "name_ar": "المهندس أحمد المحلاوي",
+    "title_ar": "مهندس متخصص في صيانة وبرمجة شاشات عرض الليد إسكرين العملاقة (LED Screens) وأنظمة الإضاءة والصوتيات",
+    "haraj_username": "ahmed el mahalawy",
+    "haraj_handle": "@Ahmed_El_Mahalawy",
+    "haraj_user_id": 19950895,
+    "haraj_profile_url": "https://haraj.com.sa/users/ahmed%20el%20mahalawy",
+    "nafath_verified": true,
+    "registration_date_iso": "2023-09-23T18:02:50+00:00",
+    "followers_count": 12,
+    "contact_info": {
+      "phone_local": "0545303140",
+      "phone_international": "+966545303140",
+      "whatsapp_link": "https://wa.me/966545303140",
+      "tel_link": "tel:+966545303140",
+      "source_of_phone": "مستخرج ومؤكد من ردود المهندس أحمد المحلاوي الرسمية في تعليقات الإعلان رقم 11127091432 (3 ردود مباشرة برقم التواصل 0545303140)",
+      "preferred_contact_method": "التواصل عبر الواتساب أو الاتصال المباشر (0545303140)"
+    },
+    "geographic_coverage": {
+      "primary_cities": [
+        {
+          "city": "الطائف",
+          "neighborhood": "حي حوايا",
+          "geohash": "sgu8zx",
+          "posts_count": 4
+        },
+        {
+          "city": "مكة المكرمة",
+          "neighborhood": "حي الشرائع",
+          "geohash": "sgu6hz",
+          "posts_count": 1
+        },
+        {
+          "city": "جدة",
+          "neighborhood": "حي السامر",
+          "geohash": "sggfv1sx8",
+          "posts_count": 1
+        },
+        {
+          "city": "الرياض",
+          "neighborhood": "حي الملك عبدالعزيز",
+          "geohash": "th3hx4x7z",
+          "posts_count": 1
+        }
+      ],
+      "service_scope": "تغطية شاملة للمنطقة الغربية (جدة، مكة المكرمة، الطائف) والرياض وجميع مناطق المملكة (بما في ذلك استفسارات العملاء من المدينة المنورة والرياض)"
+    }
+  },
+  "technical_services_and_specs": {
+    "core_services": [
+      {
+        "id": "pixel_module_repair",
+        "title": "إصلاح البكسلات المكسورة وإرجاع المديول لوضع المصنع 100%",
+        "description": "صيانة دقيقة تحت الميكروسكوب الإلكتروني للبكسلات المكسورة والتالفة واستبدالها وإرجاع المديول إلى وضع المصنع بنسبة 100% بدون أي فروقات لونية."
+      },
+      {
+        "id": "ic_circuit_repair",
+        "title": "صيانة أعطال الـ IC والخطوط والمربعات اللونية",
+        "description": "تشخيص وإصلاح أعطال الآي سي (Driver ICs)، الخطوط العمودية والأفقية، المربعات اللونية، وأعطال مسارات البيانات والباور على البوردة (PCB)."
+      },
+      {
+        "id": "mask_louvre_installation",
+        "title": "تركيب الشبك والماسكات (Masks & Louvres) بدقة عالية",
+        "description": "تركيب وتثبيت الشبك والماسكات مضبوطة 100% لحماية وجه المديول وتوحيد التباين اللوني والتسليم بدون أي مشاكل."
+      },
+      {
+        "id": "screen_programming_calibration",
+        "title": "برمجة ومعايرة شاشات العرض العملاقة",
+        "description": "برمجة كروت الاستقبال والإرسال (Receiving & Sending Cards) وضبط ملفات الـ RCFGX ومعايرة الألوان والسطوع للشاشات الداخلية والخارجية."
+      },
+      {
+        "id": "rescue_bad_repairs",
+        "title": "إنقاذ وإعادة تأهيل الشاشات المتضررة من صيانة غير المتخصصين",
+        "description": "استلام الشاشات التي تعرضت لأعطال مضاعفة أو تلف في المسارات بسبب صيانة غير المتخصصين وإعادة تأهيلها لتعمل بنسبة 100%."
+      },
+      {
+        "id": "stage_lighting_repair",
+        "title": "إصلاح وصيانة أجهزة الإضاءة المسرحية والاحتفالات",
+        "description": "صيانة متخصصة لأجهزة الإضاءة الاحترافية للحفلات والمناسبات: بيم (Beam) - ليزر (Laser) - سيتي كلر (City Color)."
+      },
+      {
+        "id": "pro_audio_equipment",
+        "title": "تجهيزات الصوتيات الاحترافية (Dynacord)",
+        "description": "خبرة في أجهزة الصوتيات والمكسرات الألمانية الأصلية (مثل مكسر ديناكورد الألماني الأصلي PowerMate 1600 - 16 خط باور)."
+      }
+    ],
+    "supported_pixel_pitches_main": [
+      "P1",
+      "P1.5",
+      "P1.8",
+      "P2",
+      "P2.5",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "supported_pixel_pitches_extended": [
+      "P1",
+      "P1.2",
+      "P1.3",
+      "P1.4",
+      "P1.5",
+      "P1.6",
+      "P1.8",
+      "P1.9",
+      "P2",
+      "P2.2",
+      "P2.5",
+      "P2.6",
+      "P2.82",
+      "P2.84",
+      "P2.976",
+      "P3",
+      "P3.5",
+      "P3.91",
+      "P4",
+      "P5"
+    ],
+    "stage_lighting_types": [
+      "بيم (Beam)",
+      "ليزر (Laser)",
+      "سيتي كلر (City Color)"
+    ],
+    "featured_product_for_sale": {
+      "haraj_id": "11192289604",
+      "title": "مكسر دينا كورد الماني اصلي الرسالة الاولي 16 خط (Dynacord PowerMate 1600)",
+      "brand": "DYNACORD",
+      "model": "PowerMate 1600 (1st Generation / الرسالة الأولى)",
+      "origin": "ألماني أصلي (Made in Germany)",
+      "agent": "شركة بن معمر",
+      "channels": "16 خط باور (2x500 Watts Powered Mixer + Dual Digital Stereo Effects)",
+      "condition": "استخدام نظيف جداً، حالة ممتازة فوق 90%، الصيانة تتم عند الوكيل وكل قطع الغيار أصلية",
+      "price_sar": 9000,
+      "formatted_price": "9,000 ريال"
+    },
+    "important_exclusions": [
+      "متخصصون في صيانة وبرمجة شاشات العرض العملاقة (LED Screens) فقط — لا نقوم بصيانة شاشات التلفزيون المنزلية العادية (LCD/LED TV)."
+    ]
+  },
+  "testimonials_and_customer_interactions": {
+    "featured_testimonial": {
+      "author": "أبونووح",
+      "post_id": "11125129357",
+      "date_iso": "2025-12-29T13:54:45+00:00",
+      "text": "ما شاء الله تبارك الرحمن صيانة اكثر من رائعة ربنا يصلح ما بين يديك دائما",
+      "rating_sentiment": "إيجابي جداً (5 نجوم)"
+    },
+    "faq_extracted_from_comments": [
+      {
+        "question": "هل تتوفر برمجة لشاشات الـ LED العملاقة؟",
+        "answer": "نعم، متاح برمجة شاشات العرض العملاقة بالإضافة إلى الصيانة الشاملة (تواصل عبر الواتساب 0545303140).",
+        "source_post": "11125129357 (رد المهندس على العضو hondahc)"
+      },
+      {
+        "question": "هل تصلحون الشاشات التي بها كسر خفيف أو بكسلات مكسورة؟",
+        "answer": "نعم، نقوم بإصلاح البكسلات المكسورة واستبدالها وتركيب الشبك والماسكات وإرجاع المديول لوضع المصنع بنسبة 100%.",
+        "source_post": "11127091432 (رد المهندس على سلمان للخدمات)"
+      },
+      {
+        "question": "هل تصلحون شاشات التلفزيون المنزلية المكسورة؟",
+        "answer": "لا، تخصصنا الدقيق هو شاشات عرض الليد إسكرين العملاقة (LED Video Walls) للإعلانات والحفلات والمؤتمرات والمسارح فقط، ولا نصلح التلفزيونات المنزلية.",
+        "source_post": "11125129357 (رد المهندس على حسن ابو لؤي)"
+      },
+      {
+        "question": "هل تخدمون مدن خارج الطائف ومكة وجدة مثل الرياض والمدينة المنورة؟",
+        "answer": "نعم، المهندس متواجد بالمملكة ويخدم العملاء في الرياض، جدة، مكة، الطائف، والمدينة المنورة عبر التنسيق المباشر على الواتساب 0545303140.",
+        "source_post": "11127091432 & 11154241986"
+      }
+    ]
+  },
+  "curated_images_by_ui_section": {
+    "hero_section": [
+      {
+        "role": "Primary Hero Visual (Engineer at Microscope with Giant LED Screen in Background)",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-kvqL410iDIa3hw.jpg",
+        "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-kvqL410iDIa3hw.jpg-700.webp",
+        "width": 481,
+        "height": 1040,
+        "caption": "المهندس أحمد المحلاوي أثناء الصيانة الدقيقة لبوردات الشاشات تحت الميكروسكوب"
+      },
+      {
+        "role": "Hero Secondary / Wide Workshop Lab View",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-WW2l2VKdRHhc4F.jpg",
+        "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-WW2l2VKdRHhc4F.jpg-700.webp",
+        "width": 1000,
+        "height": 750,
+        "caption": "معمل متكامل لصيانة وفحص كبائن ومديولات شاشات الليد إسكرين العملاقة"
+      },
+      {
+        "role": "Hero Project Showcase (Giant Stage LED Screen Working 100%)",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg",
+        "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg-700.webp",
+        "width": 1000,
+        "height": 750,
+        "caption": "تسليم شاشة عرض عملاقة في قاعة احتفالات ومؤتمرات تعمل بنسبة 100%"
+      }
+    ],
+    "about_engineer_section": [
+      {
+        "role": "Engineer Portrait in Lab (Smiling with Microscope)",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg",
+        "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg-700.webp",
+        "width": 481,
+        "height": 1040,
+        "caption": "م. أحمد المحلاوي - خبير صيانة شاشات الليد إسكرين العملاقة"
+      },
+      {
+        "role": "Engineer Field Portrait at Saudi Event Venue",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/576x432-1_-QTREc51r9XEbvq.jpg",
+        "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/576x432-1_-QTREc51r9XEbvq.jpg-700.webp",
+        "width": 576,
+        "height": 432,
+        "caption": "تواجد ميداني لصيانة شاشات الفعاليات والمؤتمرات الكبرى بالمملكة"
+      },
+      {
+        "role": "Precision Microscope Inspection",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-U4FzbPW0TGxFJw.jpg",
+        "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-U4FzbPW0TGxFJw.jpg-700.webp",
+        "width": 481,
+        "height": 1040,
+        "caption": "دقة متناهية في فحص ولحام البكسلات والآي سي عبر الميكروسكوب"
+      }
+    ],
+    "services_section": [
+      {
+        "service": "إصلاح البكسلات المكسورة واللحام الدقيق بالميكروسكوب",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-m2tlAcpHCd0RYI.jpg",
+        "alt_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Dl0xXfQt8xpb1L.jpg"
+      },
+      {
+        "service": "تركيب الشبك والماسكات (Masks & Louvres) وإرجاع المديول لوضع المصنع",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg",
+        "alt_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-UdRtBehfi7egfi.jpg"
+      },
+      {
+        "service": "إصلاح أعطال الآي سي (IC) والخطوط والمربعات اللونية",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-YcRJ0ATAM5Q5GN.jpg",
+        "alt_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-b2av5WYz04wbHT.jpg"
+      },
+      {
+        "service": "صيانة كبائن الشاشات (Rental & Fixed Cabinets) والباورسبلاي والكروت",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-s5tz8HoJiAYgOY.jpg",
+        "alt_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-dOUBIKkjXI1P3T.jpg"
+      },
+      {
+        "service": "برمجة ومعايرة الشاشات العملاقة للمسارح والفعاليات",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg",
+        "alt_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/816x612-1_-wgtXw7Kn7Oc5tW.jpg"
+      },
+      {
+        "service": "معدات الصوتيات الألمانية الأصلية (Dynacord PowerMate 1600) وأجهزة الإضاءة (Beam / Laser / City Color)",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-XFcx05PozfoFxA.jpg",
+        "alt_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-2o8caoxvCuSxNC.jpg"
+      }
+    ],
+    "portfolio_before_after_pairs": [
+      {
+        "pair_id": 1,
+        "title": "إعادة تأهيل كابينة 4 مديولات بالكامل",
+        "before_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-hCj5fheg5DUEgJ.jpg",
+        "during_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-0rswmFev5aG6aa.jpg",
+        "after_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-96CsOIJVTKC6rw.jpg",
+        "description": "تفكيك وفحص الباورسبلاي وإصلاح البكسلات المكسورة في 4 مديولات وإرجاعها لحالة المصنع 100%"
+      },
+      {
+        "pair_id": 2,
+        "title": "إنقاذ شاشة متضررة من صيانة غير المتخصصين",
+        "before_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg",
+        "during_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-zzqAE7pQ62AV8y.jpg",
+        "after_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg",
+        "description": "استلام شاشة تعاني من خطوط وتشوهات بعد عبث غير المتخصصين وتسليم الكابينة تعمل بنسبة 100%"
+      },
+      {
+        "pair_id": 3,
+        "title": "إصلاح أعطال الآي سي والخطوط العمودية والماسكات",
+        "before_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-b2av5WYz04wbHT.jpg",
+        "during_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg",
+        "after_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ZCmlY9YwDkPdMN.jpg",
+        "description": "معالجة أعطال الخطوط الخضراء واستبدال الشبك والماسكات وتسليم المديول يعمل بكفاءة 100%"
+      },
+      {
+        "pair_id": 4,
+        "title": "تجهيز وصيانة وبرمجة شاشة مسرح عملاقة للفعاليات",
+        "before_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/816x612-1_-wgtXw7Kn7Oc5tW.jpg",
+        "during_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-3mJpHIKLzcLeVo.jpg",
+        "after_url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg",
+        "description": "صيانة المديولات وبرمجة الشاشة العملاقة بالكامل داخل قاعة المؤتمرات والاحتفالات"
+      }
+    ],
+    "dynacord_mixer_gallery": [
+      {
+        "role": "Main Product Image (Full 16-Channel Console)",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-XFcx05PozfoFxA.jpg"
+      },
+      {
+        "role": "Made in Germany Badge & Serial Number",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-sFlvFLboz8eqTM.jpg"
+      },
+      {
+        "role": "Master Section & Dual Digital Effects",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-2o8caoxvCuSxNC.jpg"
+      },
+      {
+        "role": "Ben Muammar Agency Sticker (الرسالة الأولى شركة بن معمر)",
+        "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/768x1024-1_-36x9fKe1SbDlf1.jpg"
+      }
+    ]
+  },
+  "posts": [
+    {
+      "haraj_id": "11126650296",
+      "internal_id": 126650296,
+      "url": "https://haraj.com.sa/11126650296/",
+      "canonical_path": "11126650296/صيانة_شاشات_عرض_اعلانات_عملاقه_Led_Screen/",
+      "title": "صيانة شاشات عرض اعلانات عملاقه Led Screen",
+      "is_in_original_6_urls": true,
+      "city": "الطايف",
+      "geo_city": "الطايف",
+      "geo_neighborhood": "حوايا",
+      "geo_hash": "sgu8zx",
+      "post_date_unix": 1701094017,
+      "post_date_iso": "2023-11-27T14:06:57+00:00",
+      "update_date_unix": 1794506324,
+      "update_date_iso": "2026-11-12T17:58:44+00:00",
+      "price": null,
+      "tags": [
+        "كل الحراج",
+        "حفلات ومناسبات"
+      ],
+      "body_text": "صيانة شاشات عرض الليد إسكرين العملاقة .\nيوجد لدينا مهندسين متخصصين في صيانة شاشات عرض الليد إسكرين العملاقة بجميع انواعها وتركيب الشبك والماسكات مضبوطه والتسليم 100٪ بدون اي مشاكل\nاصلاح البكسيلات المكسوره وارجاع المديول الي وضع المصنع بنسبة 100٪\nP5\nP4\nP3\nP2.5\nP2\nP1.8\nP1.5\nP1",
+      "comment_count": 1,
+      "comments": [
+        {
+          "seq_id": 1,
+          "author_username": "hassan3530",
+          "author_id": 2597973,
+          "date_unix": 1712412809,
+          "date_iso": "2024-04-06T14:13:29+00:00",
+          "body": "تواصل معي  ( رقم الجوال يظهر للمعلن )"
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ZCmlY9YwDkPdMN.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ZCmlY9YwDkPdMN.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 195321,
+          "orientation": "landscape",
+          "category": "after_repair_module",
+          "category_ar": "مديول وكابينة شاشة LED بعد الصيانة (إضاءة كاملة 100%)",
+          "recommended_section": [
+            "Hero",
+            "Portfolio (Before/After)",
+            "Services (LED Module Repair)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "مديول شاشة LED مثبت على كابينة ألمنيوم يعمل بكفاءة 100% وإضاءة متجانسة بالكامل بعد انتهاء الصيانة"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-b2av5WYz04wbHT.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-b2av5WYz04wbHT.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 196024,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "أعطال خطوط وبكسلات قبل الصيانة",
+          "recommended_section": [
+            "Portfolio (Before/After)",
+            "Services (IC & Line Faults)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مديول شاشة LED على طاولة الصيانة يظهر به أعطال خطوط خضراء عمودية وبكسلات تالفة قبل الإصلاح"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-55qfldSTMoqYOT.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-55qfldSTMoqYOT.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 238274,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "أعطال خطوط أفقية وبكسلات",
+          "recommended_section": [
+            "Services (Pixel & IC Repair)"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "مديول شاشة LED يظهر به خط أحمر أفقي فاصل نتيجة عطل في مسار البيانات/الآي سي"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-TLQEyXqdpmV3H7.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-TLQEyXqdpmV3H7.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 209092,
+          "orientation": "landscape",
+          "category": "during_repair_cabinet",
+          "category_ar": "فحص مديول على الكابينة أثناء الصيانة",
+          "recommended_section": [
+            "Services (Cabinet & Module Alignment)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "فحص توافق المديول مع الكابينة والماسكات أثناء عملية الإصلاح"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Dl0xXfQt8xpb1L.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Dl0xXfQt8xpb1L.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 145008,
+          "orientation": "landscape",
+          "category": "close_up_pixel_mask",
+          "category_ar": "تصوير مقرب للبكسلات المكسورة والماسكات",
+          "recommended_section": [
+            "Services (Broken Pixel & Mask Replacement)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "لقطة قريبة جداً توضح تلف البكسلات والماسك على حافة المديول قبل استبدالها وإرجاعها لوضع المصنع"
+        },
+        {
+          "index": 5,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-F4rNLLGNODfqQ3.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-F4rNLLGNODfqQ3.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 237319,
+          "orientation": "portrait",
+          "category": "before_repair_faults",
+          "category_ar": "تلف حواف المديول وبكسلات مفقودة",
+          "recommended_section": [
+            "Portfolio (Before/After)"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "مديول عمودي يظهر به تلف واضح في البكسلات الجانبية وتغير لوني أحمر قبل الصيانة"
+        },
+        {
+          "index": 6,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ml7BjikgKMmOzv.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ml7BjikgKMmOzv.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 187452,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "تلف بكسلات وماسك في الجزء السفلي للمديول",
+          "recommended_section": [
+            "Services (Mask & Louvre Installation)"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "مديول يظهر به تآكل في صفوف البكسلات السفلية قبل تركيب الشبك والماسكات الجديدة"
+        },
+        {
+          "index": 7,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 176473,
+          "orientation": "landscape",
+          "category": "during_repair_tools",
+          "category_ar": "عملية تركيب الشبك والماسكات وأدوات اللحام الدقيق",
+          "recommended_section": [
+            "Services (Mask Replacement)",
+            "About / Process"
+          ],
+          "quality_rank": "A",
+          "visual_description": "صورة توثق عملية تركيب الشبك والماسكات (Louvres/Masks) مع أدوات اللحام والفلاكس على المديول"
+        },
+        {
+          "index": 8,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-V2XT5SlBWu927p.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-V2XT5SlBWu927p.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 252425,
+          "orientation": "portrait",
+          "category": "during_repair_cabinet",
+          "category_ar": "مديول قيد الفحص على الكابينة",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "فحص مديول مثبت على كابينة ألمنيوم مع ظهور الكابلات الخلفية"
+        },
+        {
+          "index": 9,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-YcRJ0ATAM5Q5GN.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-YcRJ0ATAM5Q5GN.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 223298,
+          "orientation": "landscape",
+          "category": "before_repair_ic_fault",
+          "category_ar": "عطل آي سي (مربع بنفسجي/وردي في المديول)",
+          "recommended_section": [
+            "Services (IC & Color Block Repair)",
+            "Portfolio (Before/After)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "عطل كلاسيكي في آي سي الألوان يظهر كمربع بنفسجي في أعلى المديول قبل استبدال الـ IC"
+        }
+      ]
+    },
+    {
+      "haraj_id": "11126529141",
+      "internal_id": 126529141,
+      "url": "https://haraj.com.sa/11126529141/",
+      "canonical_path": "11126529141/صيانة_شاشات_عرض_ليد_اسكرين_دعاية_وإعلان_عملاقه_Led_Screen/",
+      "title": "صيانة شاشات عرض ليد اسكرين دعاية وإعلان عملاقه Led Screen",
+      "is_in_original_6_urls": true,
+      "city": "مكه",
+      "geo_city": "مكه",
+      "geo_neighborhood": "الشرائع",
+      "geo_hash": "sgu6hz",
+      "post_date_unix": 1700921773,
+      "post_date_iso": "2023-11-25T14:16:13+00:00",
+      "update_date_unix": 1794506326,
+      "update_date_iso": "2026-11-12T17:58:46+00:00",
+      "price": null,
+      "tags": [
+        "كل الحراج",
+        "حفلات ومناسبات"
+      ],
+      "body_text": "صيانة شاشات عرض الليد إسكرين العملاقة .\nيوجد لدينا مهندسين متخصصين في صيانة شاشات عرض الليد إسكرين العملاقة بجميع انواعها وتركيب الشبك والماسكات مضبوطه والتسليم 100٪ بدون اي مشاكل\nاصلاح البكسيلات المكسوره وارجاع المديول الي وضع المصنع بنسبة 100٪\nP5\nP4\nP3\nP2.5\nP2\nP1.8\nP1.5\nP1",
+      "comment_count": 0,
+      "comments": [],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-kvqL410iDIa3hw.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-kvqL410iDIa3hw.jpg-700.webp",
+          "status": 200,
+          "width": 481,
+          "height": 1040,
+          "size_bytes": 100618,
+          "orientation": "portrait",
+          "category": "engineer_microscope_lab",
+          "category_ar": "المهندس أحمد المحلاوي أثناء الصيانة الدقيقة بالميكروسكوب",
+          "recommended_section": [
+            "Hero",
+            "About Engineer",
+            "Services (Micro-Soldering & PCB Repair)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "المهندس أحمد المحلاوي يعمل على صيانة بوردات ومديولات LED تحت الميكروسكوب الإلكتروني في موقع عمل مجهز مع شاشة عرض عملاقة في الخلفية"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg-700.webp",
+          "status": 200,
+          "width": 481,
+          "height": 1040,
+          "size_bytes": 72283,
+          "orientation": "portrait",
+          "category": "engineer_portrait_lab",
+          "category_ar": "صورة شخصية للمهندس أحمد المحلاوي في معمل الصيانة",
+          "recommended_section": [
+            "About Engineer",
+            "Hero Profile Card",
+            "Trust Section"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "صورة شخصية واضحة للمهندس أحمد المحلاوي مبتسماً بجانب جهاز الميكروسكوب ومعدات فحص وصيانة شاشات الـ LED"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-U4FzbPW0TGxFJw.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-U4FzbPW0TGxFJw.jpg-700.webp",
+          "status": 200,
+          "width": 481,
+          "height": 1040,
+          "size_bytes": 80932,
+          "orientation": "portrait",
+          "category": "engineer_microscope_lab",
+          "category_ar": "فحص دقيق للبكسلات والمسارات عبر الميكروسكوب",
+          "recommended_section": [
+            "Services (Micro-Soldering)",
+            "About Engineer"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "المهندس أحمد المحلاوي يفحص مسارات البوردة والآي سي بدقة عالية باستخدام الميكروسكوب المزدوج"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-m2tlAcpHCd0RYI.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-m2tlAcpHCd0RYI.jpg-700.webp",
+          "status": 200,
+          "width": 481,
+          "height": 1040,
+          "size_bytes": 87122,
+          "orientation": "portrait",
+          "category": "engineer_microscope_lab",
+          "category_ar": "صيانة بوردات LED داخل قاعة/استوديو مع شاشة عرض خلفية",
+          "recommended_section": [
+            "Portfolio",
+            "Services"
+          ],
+          "quality_rank": "A",
+          "visual_description": "عملية صيانة ميدانية دقيقة لبوردات الشاشة باستخدام الميكروسكوب وأمامه شاشة عرض تعمل في القاعة"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-4907lqd7sWgLyc.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-4907lqd7sWgLyc.jpg-700.webp",
+          "status": 200,
+          "width": 481,
+          "height": 1040,
+          "size_bytes": 87033,
+          "orientation": "portrait",
+          "category": "engineer_microscope_lab",
+          "category_ar": "ضبط الميكروسكوب ولحام المكونات السطحية SMD",
+          "recommended_section": [
+            "Services (SMD & Pixel Repair)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "المهندس أحمد المحلاوي يضبط عدسات الميكروسكوب لإصلاح البكسلات الدقيقة"
+        }
+      ]
+    },
+    {
+      "haraj_id": "11127091432",
+      "internal_id": 127091432,
+      "url": "https://haraj.com.sa/11127091432/",
+      "canonical_path": "11127091432/صيانة_شاشات_عرض_ليد_اسكرين_عملاقه_Led_Screen/",
+      "title": "صيانة شاشات عرض ليد اسكرين عملاقه Led Screen",
+      "is_in_original_6_urls": true,
+      "city": "الطايف",
+      "geo_city": "الطايف",
+      "geo_neighborhood": "حوايا",
+      "geo_hash": "sgu8zxd3h",
+      "post_date_unix": 1701759649,
+      "post_date_iso": "2023-12-05T07:00:49+00:00",
+      "update_date_unix": 1794506328,
+      "update_date_iso": "2026-11-12T17:58:48+00:00",
+      "price": null,
+      "tags": [
+        "كل الحراج",
+        "خدمات"
+      ],
+      "body_text": "هكذا تصل إلينا الشاشات بعد أن يتم صيانتها علي يد غير المتخصصين في المجال ويتم تسليم الشاشة تعمل بنسبة 100٪ بفضل ومنة من الله تعالي علي عبده الفقير إليه\nقبل أن تسلم شاشتك تأكد من المهندس الذي سيقوم بالإصلاح والصيانة فالسوق ملئ بمن يدعي العلم والنتائج دائما تكون كارثية *** كل الصور التي يتم عرضها على حسابات\nالشخصيه تكون قبل وأثناء عملية الصيانة\nاخر صورة بعد الانتهاء من الصيانة\nم.احمد المحلاوي\nصيانة شاشات عرض الليد إسكرين العملاقة .\nيوجد لدينا مهندسين متخصصين في صيانة شاشات عرض الليد إسكرين العملاقة بجميع انواعها وتركيب الشبك والماسكات مضبوطه والتسليم 100٪ بدون اي مشاكل\nاصلاح البكسيلات المكسوره وارجاع المديول الي وضع المصنع بنسبة 100٪\nP5\nP4\nP3\nP2.5\nP2\nP1.8\nP1.5\nP1\nاصلاح اجهزة الإضاءة\nبيم - ليزر - سيتي كلر",
+      "comment_count": 5,
+      "comments": [
+        {
+          "seq_id": 1,
+          "author_username": "mostafa zaki 75111",
+          "author_id": 17013221,
+          "date_unix": 1702431692,
+          "date_iso": "2023-12-13T01:41:32+00:00",
+          "body": "::  الرد محذوف  ::"
+        },
+        {
+          "seq_id": 2,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1702488807,
+          "date_iso": "2023-12-13T17:33:27+00:00",
+          "body": "mostafa zaki 75111 \n0545303140"
+        },
+        {
+          "seq_id": 3,
+          "author_username": "سلمان للخدمات",
+          "author_id": 19149903,
+          "date_unix": 1702913086,
+          "date_iso": "2023-12-18T15:24:46+00:00",
+          "body": "انتو تصلحو الشاشات الي فيها كسر خفيف"
+        },
+        {
+          "seq_id": 4,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1702913168,
+          "date_iso": "2023-12-18T15:26:08+00:00",
+          "body": "mostafa zaki 75111 \n0545303140"
+        },
+        {
+          "seq_id": 5,
+          "author_username": "سلمان للخدمات",
+          "author_id": 19149903,
+          "date_unix": 1702914146,
+          "date_iso": "2023-12-18T15:42:26+00:00",
+          "body": "عندكم في المدينة"
+        },
+        {
+          "seq_id": 6,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1702914322,
+          "date_iso": "2023-12-18T15:45:22+00:00",
+          "body": "سلمان للخدمات \nللتواصل 0545303140"
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-dOUBIKkjXI1P3T.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-dOUBIKkjXI1P3T.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 67515,
+          "orientation": "landscape",
+          "category": "workshop_flight_cases",
+          "category_ar": "صندوق نقل كبائن شاشات عملاقة (Flight Case) داخل ورشة الصيانة",
+          "recommended_section": [
+            "Services (Rental & Event Screens)",
+            "Portfolio",
+            "Hero Background"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "صندوق حفظ ونقل شاشات الحفلات (Flight Case) يحتوي على كبائن LED احترافية داخل معمل الصيانة"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-s5tz8HoJiAYgOY.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-s5tz8HoJiAYgOY.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 71835,
+          "orientation": "landscape",
+          "category": "workshop_bench_overview",
+          "category_ar": "معمل وطاولة صيانة كبائن وكروت شاشات LED",
+          "recommended_section": [
+            "About Workshop",
+            "Services (Power & Receiving Cards)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "نظرة شاملة لطاولة الصيانة المجهزة بكبائن الـ LED، محولات الطاقة، كروت الاستقبال، ومحطات اللحام"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-WW2l2VKdRHhc4F.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-WW2l2VKdRHhc4F.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 64599,
+          "orientation": "landscape",
+          "category": "workshop_engineer_working",
+          "category_ar": "المهندس أثناء العمل داخل مختبر الصيانة المتكامل",
+          "recommended_section": [
+            "Hero",
+            "About Workshop",
+            "Portfolio"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "لقطة واسعة لمعمل الصيانة المتخصص يظهر فيها المهندس أثناء فحص وإصلاح كبائن الشاشات العملاقة"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-zzqAE7pQ62AV8y.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-zzqAE7pQ62AV8y.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 69092,
+          "orientation": "landscape",
+          "category": "workshop_engineer_working",
+          "category_ar": "إصلاح كبائن وبوردات الشاشات في المعمل",
+          "recommended_section": [
+            "About Workshop",
+            "Services"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "زاوية أخرى لمعمل الصيانة توضح التجهيزات الاحترافية وفحص الكبائن إلكترونياً"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/540x1170-1_-4nUDvX1lwN1DPc.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/540x1170-1_-4nUDvX1lwN1DPc.jpg-700.webp",
+          "status": 200,
+          "width": 540,
+          "height": 1170,
+          "size_bytes": 126790,
+          "orientation": "portrait",
+          "category": "before_repair_faults",
+          "category_ar": "عطل خطوط عمودية (قبل الصيانة)",
+          "recommended_section": [
+            "Portfolio (Before/After)"
+          ],
+          "quality_rank": "B",
+          "visual_description": "صورة توضيحية لعطل خطوط خضراء عمودية في المديول قبل الإصلاح"
+        },
+        {
+          "index": 5,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/540x1170-1_-ctW7CW0nDxXeY2.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/540x1170-1_-ctW7CW0nDxXeY2.jpg-700.webp",
+          "status": 200,
+          "width": 540,
+          "height": 1170,
+          "size_bytes": 76869,
+          "orientation": "portrait",
+          "category": "before_repair_faults",
+          "category_ar": "عطل خطوط ملونة متقطعة (قبل الصيانة)",
+          "recommended_section": [
+            "Portfolio (Before/After)"
+          ],
+          "quality_rank": "B",
+          "visual_description": "عطل في آي سي الدرايفر يسبب خطاً عمودياً أخضر ووردي قبل الصيانة"
+        },
+        {
+          "index": 6,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 405,
+          "size_bytes": 94530,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "شاشة بها أعطال خطوط وبكسلات بعد عبث غير المتخصصين",
+          "recommended_section": [
+            "Portfolio (Before/After)",
+            "Why Choose Us (Warning Section)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "حالة شاشة وصلت للمعمل بعد محاولة صيانة خاطئة من غير متخصصين وتظهر بها خطوط وتشوهات"
+        },
+        {
+          "index": 7,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/720x1280-1_-ETa0dY8rhz0N3b.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/720x1280-1_-ETa0dY8rhz0N3b.jpg-700.webp",
+          "status": 200,
+          "width": 720,
+          "height": 1280,
+          "size_bytes": 200826,
+          "orientation": "portrait",
+          "category": "before_repair_faults",
+          "category_ar": "أعطال خطوط حمراء متفرقة في شاشة داخلية",
+          "recommended_section": [
+            "Portfolio (Before/After)"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "لقطة لشاشة عمودية تظهر بها خطوط حمراء عمودية متقطعة قبل التدخل الهندسي"
+        },
+        {
+          "index": 8,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 110831,
+          "orientation": "landscape",
+          "category": "after_repair_full_cabinet",
+          "category_ar": "الكابينة بعد انتهاء الصيانة بنسبة 100% (النتيجة النهائية)",
+          "recommended_section": [
+            "Hero",
+            "Portfolio (Before/After Highlight)",
+            "Why Choose Us"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "الصورة النهائية لكابينة الشاشة بعد انتهاء الصيانة بالكامل وتعمل بنسبة 100% بإضاءة زرقاء/بيضاء صافية ومتجانسة تماماً"
+        }
+      ]
+    },
+    {
+      "haraj_id": "11126001401",
+      "internal_id": 126001401,
+      "url": "https://haraj.com.sa/11126001401/",
+      "canonical_path": "11126001401/صيانة_شاشات_عرض_عملاقه_Led_Screen/",
+      "title": "صيانة شاشات عرض عملاقه Led Screen",
+      "is_in_original_6_urls": true,
+      "city": "الطايف",
+      "geo_city": "الطايف",
+      "geo_neighborhood": "حوايا",
+      "geo_hash": "sgu8zx",
+      "post_date_unix": 1700121113,
+      "post_date_iso": "2023-11-16T07:51:53+00:00",
+      "update_date_unix": 1794506330,
+      "update_date_iso": "2026-11-12T17:58:50+00:00",
+      "price": null,
+      "tags": [
+        "كل الحراج",
+        "حفلات ومناسبات"
+      ],
+      "body_text": "صيانة شاشات عرض الليد إسكرين العملاقة .\nيوجد لدينا مهندسين متخصصين في صيانة شاشات عرض الليد إسكرين العملاقة بجميع انواعها وتركيب الشبك والماسكات مضبوطه والتسليم 100٪ بدون اي مشاكل\nاصلاح البكسيلات المكسوره وارجاع المديول الي وضع المصنع بنسبة 100٪\nP5\nP4\nP3\nP2.5\nP2\nP1.8\nP1.5\nP1",
+      "comment_count": 0,
+      "comments": [],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-hCj5fheg5DUEgJ.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-hCj5fheg5DUEgJ.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 236837,
+          "orientation": "portrait",
+          "category": "before_repair_cabinet_4mod",
+          "category_ar": "كابينة 4 مديولات قبل الصيانة (بكسلات مكسورة وفراغات)",
+          "recommended_section": [
+            "Portfolio (Before/After Sequence Step 1)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "كابينة مكونة من 4 مديولات قبل الصيانة تظهر بها نقاط سوداء وبكسلات مكسورة متعددة"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-0rswmFev5aG6aa.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-0rswmFev5aG6aa.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 214774,
+          "orientation": "portrait",
+          "category": "during_repair_cabinet_internals",
+          "category_ar": "فك المديول وإظهار الباورسبلاي والتوصيلات الداخلية للكابينة",
+          "recommended_section": [
+            "Portfolio (Before/After Sequence Step 2)",
+            "Services (Power & Cabling)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "أثناء صيانة الكابينة مع فك أحد المديولات وظهور محول الطاقة (Power Supply) والكابلات الداخلية"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-96CsOIJVTKC6rw.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-96CsOIJVTKC6rw.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 185901,
+          "orientation": "landscape",
+          "category": "after_repair_cabinet_4mod",
+          "category_ar": "الكابينة بعد استكمال صيانة المديولات الأربعة",
+          "recommended_section": [
+            "Portfolio (Before/After Sequence Step 3)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "الكابينة بعد إعادة تركيب المديولات الأربعة وإصلاح معظم الأعطال"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/612x816-1_-afJ5N1a5KAw2Fj.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/612x816-1_-afJ5N1a5KAw2Fj.jpg-700.webp",
+          "status": 200,
+          "width": 612,
+          "height": 816,
+          "size_bytes": 158434,
+          "orientation": "portrait",
+          "category": "during_repair_module_test",
+          "category_ar": "فحص البكسلات المتبقية تحت الاختبار الأبيض",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "اختبار اللون الأبيض الكامل لتحديد البكسلات الدقيقة التي تحتاج استبدال"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/612x816-1_-aVEHtfocrq3cee.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/612x816-1_-aVEHtfocrq3cee.jpg-700.webp",
+          "status": 200,
+          "width": 612,
+          "height": 816,
+          "size_bytes": 143616,
+          "orientation": "portrait",
+          "category": "after_repair_module_test",
+          "category_ar": "نتيجة اختبار الإضاءة البيضاء بعد معالجة البكسلات",
+          "recommended_section": [
+            "Portfolio (Before/After)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "سطح الشاشة بعد معالجة البكسلات التالفة واستعادة التجانس اللوني"
+        },
+        {
+          "index": 5,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-SjisyCPk4dbYQZ.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-SjisyCPk4dbYQZ.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 223298,
+          "orientation": "landscape",
+          "category": "before_repair_ic_fault",
+          "category_ar": "عطل آي سي لوني (مربع بنفسجي)",
+          "recommended_section": [
+            "Services (IC Repair)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مديول يظهر به عطل مربع بنفسجي في الجزء العلوي"
+        },
+        {
+          "index": 6,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-IUWtsxidv2N4ON.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-IUWtsxidv2N4ON.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 117165,
+          "orientation": "landscape",
+          "category": "close_up_pixel_mask",
+          "category_ar": "لقطة مكبرة لعطل خط أخضر وتلف حافة المديول",
+          "recommended_section": [
+            "Services (Micro-Soldering & Edge Repair)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "تصوير قريب يوضح تلف البكسلات على الحافة مع خط أخضر عمودي"
+        },
+        {
+          "index": 7,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-bKTL8ricA2to3G.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-bKTL8ricA2to3G.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 196024,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "أعطال خطوط عمودية متعددة في المديول",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مديول على طاولة الفحص يظهر به عدة خطوط خضراء عمودية"
+        },
+        {
+          "index": 8,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Ww9te5hJ5rBX0y.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Ww9te5hJ5rBX0y.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 179039,
+          "orientation": "landscape",
+          "category": "after_repair_module",
+          "category_ar": "مديول سليم 100% بعد الصيانة",
+          "recommended_section": [
+            "Portfolio (After)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "المديول بعد انتهاء الصيانة واللحام ويعمل بكامل طاقته 100%"
+        },
+        {
+          "index": 9,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/500x375-1_-hD01VEqDcw0XxU.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/500x375-1_-hD01VEqDcw0XxU.jpg-700.webp",
+          "status": 200,
+          "width": 500,
+          "height": 375,
+          "size_bytes": 77098,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "عطل خط أفقي أحمر",
+          "recommended_section": [
+            "Services"
+          ],
+          "quality_rank": "B",
+          "visual_description": "مديول يظهر به خط أحمر أفقي"
+        }
+      ]
+    },
+    {
+      "haraj_id": "11192289604",
+      "internal_id": 192289604,
+      "url": "https://haraj.com.sa/11192289604/",
+      "canonical_path": "11192289604/مكسر_دينا_كورد_الماني_اصلي_الرسالة_الاولي_16_خط/",
+      "title": "مكسر دينا كورد الماني اصلي الرسالة الاولي 16 خط",
+      "is_in_original_6_urls": true,
+      "city": "الطايف",
+      "geo_city": "الطايف",
+      "geo_neighborhood": "حوايا",
+      "geo_hash": "sgu8zx",
+      "post_date_unix": 1794196808,
+      "post_date_iso": "2026-11-09T04:00:08+00:00",
+      "update_date_unix": 1794506496,
+      "update_date_iso": "2026-11-12T18:01:36+00:00",
+      "price": {
+        "formattedPrice": "9,000",
+        "inputPrice": "9000"
+      },
+      "tags": [
+        "كل الحراج",
+        "حفلات ومناسبات"
+      ],
+      "body_text": "للبيع ميكسر دينا كورد الرساله الأولي شركة بن معمر 16 خط باور استخدام نظيف جدا حالة ممتازه فوق ال 90٪ والصيانة تتم عند الوكيل كل قطع الغيار اصلية\nالتواصل عن طريق الواتس",
+      "comment_count": 2,
+      "comments": [
+        {
+          "seq_id": 1,
+          "author_username": "mido.55",
+          "author_id": 2496775,
+          "date_unix": 1794234414,
+          "date_iso": "2026-11-09T14:26:54+00:00",
+          "body": "هل الاصلي"
+        },
+        {
+          "seq_id": 2,
+          "author_username": "mido.55",
+          "author_id": 2496775,
+          "date_unix": 1794234435,
+          "date_iso": "2026-11-09T14:27:15+00:00",
+          "body": "واخرة كام للصامل"
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/768x1024-1_-36x9fKe1SbDlf1.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/768x1024-1_-36x9fKe1SbDlf1.jpg-700.webp",
+          "status": 200,
+          "width": 768,
+          "height": 1024,
+          "size_bytes": 82200,
+          "orientation": "portrait",
+          "category": "dynacord_mixer_agency_stickers",
+          "category_ar": "غطاء مكسر ديناكورد الأصلي مع ملصقات وكيل بن معمر",
+          "recommended_section": [
+            "Audio Equipment / Dynacord Showcase"
+          ],
+          "quality_rank": "A",
+          "visual_description": "الغطاء الخارجي للمكسر وعليه ملصقات الوكيل الرسمي شركة بن معمر (الرسالة الأولى)"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-sFlvFLboz8eqTM.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-sFlvFLboz8eqTM.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 50609,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_badge_germany",
+          "category_ar": "شعار Dynacord PowerMate 1600 الأصلي (Made in Germany)",
+          "recommended_section": [
+            "Audio Equipment / Featured Product Card"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "لقطة مقربة توضح شعار DYNACORD PowerMate 1600 والرقم التسلسلي وصناعة ألمانية أصلية (Made in Germany)"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-XFcx05PozfoFxA.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-XFcx05PozfoFxA.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 119328,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_full_front",
+          "category_ar": "واجهة مكسر ديناكورد الألماني 16 خط باور كاملة",
+          "recommended_section": [
+            "Audio Equipment Hero / Card Thumbnail",
+            "Services (Audio & Stage Equipment)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "صورة أفقية واضحة جداً لكامل واجهة مكسر ديناكورد PowerMate 1600 بجميع الـ 16 خط والـ Faders"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-Z0aAX4OT8Z1N1p.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-Z0aAX4OT8Z1N1p.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 120696,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_full_front",
+          "category_ar": "منظر شامل لمكسر ديناكورد 16 خط",
+          "recommended_section": [
+            "Audio Equipment Gallery"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "لقطة شاملة للمكسر توضح نظافة الجهاز وحالته الممتازة فوق 90%"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/720x1280-1_-922cNIWFvbjNwi.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/720x1280-1_-922cNIWFvbjNwi.jpg-700.webp",
+          "status": 200,
+          "width": 720,
+          "height": 1280,
+          "size_bytes": 210631,
+          "orientation": "portrait",
+          "category": "dynacord_mixer_vertical",
+          "category_ar": "صورة رأسية لمكسر ديناكورد 16 خط",
+          "recommended_section": [
+            "Audio Equipment Gallery"
+          ],
+          "quality_rank": "A",
+          "visual_description": "صورة رأسية توضح قنوات المكسر والإيكولايزر"
+        },
+        {
+          "index": 5,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-HTSZ8Eb4b9FR2X.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-HTSZ8Eb4b9FR2X.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 65881,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_diagram",
+          "category_ar": "مخطط التوصيلات الهندسي المطبوع على المكسر",
+          "recommended_section": [
+            "Audio Equipment Technical Details"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مخطط مداخل ومخارج الصوت XLR Balanced Mic Inputs على هيكل المكسر"
+        },
+        {
+          "index": 6,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-Cq59VzyEvUhVol.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-Cq59VzyEvUhVol.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 97395,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_ports",
+          "category_ar": "مداخل ومخارج المكسر الخلفية/الأمامية",
+          "recommended_section": [
+            "Audio Equipment Gallery"
+          ],
+          "quality_rank": "A",
+          "visual_description": "منظر جانبي يظهر صف مداخل المايكروفونات والخطوط (16 خط)"
+        },
+        {
+          "index": 7,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/720x1280-1_-z1l1KkCMrxVBxi.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/720x1280-1_-z1l1KkCMrxVBxi.jpg-700.webp",
+          "status": 200,
+          "width": 720,
+          "height": 1280,
+          "size_bytes": 204054,
+          "orientation": "portrait",
+          "category": "dynacord_mixer_vertical",
+          "category_ar": "تفاصيل قنوات ومفاتيح المكسر",
+          "recommended_section": [
+            "Audio Equipment Gallery"
+          ],
+          "quality_rank": "A",
+          "visual_description": "لقطة تفصيلية لمفاتيح التحكم والـ Faders الخاصة بالمكسر"
+        },
+        {
+          "index": 8,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-2o8caoxvCuSxNC.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-2o8caoxvCuSxNC.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 79543,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_master_fx",
+          "category_ar": "قسم المؤثرات الرقمية المزدوجة (Dual Digital Stereo Effects) والإيكولايزر",
+          "recommended_section": [
+            "Audio Equipment Showcase"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "لقطة مقربة احترافية لقسم الـ Master والـ Dual Digital Stereo Effects (2x500 Watts) والـ Graphic Equalizer"
+        },
+        {
+          "index": 9,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-iiUhcr31Qg4U4n.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-iiUhcr31Qg4U4n.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 506,
+          "size_bytes": 55373,
+          "orientation": "landscape",
+          "category": "dynacord_mixer_power_rear",
+          "category_ar": "مدخل الطاقة الخلفي وبيانات الصناعة الألمانية (1600 Watts)",
+          "recommended_section": [
+            "Audio Equipment Technical Details"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مدخل الباور الخلفي والفيوز وبيانات القدرة (230V 50-60Hz 1600 Watts - Made in Germany)"
+        }
+      ]
+    },
+    {
+      "haraj_id": "11125129357",
+      "internal_id": 125129357,
+      "url": "https://haraj.com.sa/11125129357/",
+      "canonical_path": "11125129357/صيانة_شاشات_عرض_الليد_إسكرين_العملاقة/",
+      "title": "صيانة شاشات عرض الليد إسكرين العملاقة",
+      "is_in_original_6_urls": true,
+      "city": "جده",
+      "geo_city": "جده",
+      "geo_neighborhood": "السامر",
+      "geo_hash": "sggfv1sx8",
+      "post_date_unix": 1698817912,
+      "post_date_iso": "2023-11-01T05:51:52+00:00",
+      "update_date_unix": 1794506438,
+      "update_date_iso": "2026-11-12T18:00:38+00:00",
+      "price": null,
+      "tags": [
+        "كل الحراج",
+        "خدمات"
+      ],
+      "body_text": "صيانة شاشات عرض الليد إسكرين العملاقة .\nيوجد لدينا مهندسين متخصصين في صيانة شاشات عرض الليد إسكرين العملاقة بجميع انواعها وتركيب الشبك والماسكات مضبوطه والتسليم 100٪ بدون اي مشاكل\nاصلاح البكسيلات المكسوره وارجاع المديول الي وضع المصنع بنسبة 100٪\nP5\nP4\nP3\nP2.5\nP2\nP1.8\nP1.5\nP1",
+      "comment_count": 11,
+      "comments": [
+        {
+          "seq_id": 1,
+          "author_username": "فزااااااع",
+          "author_id": 320900,
+          "date_unix": 1711163028,
+          "date_iso": "2024-03-23T03:03:48+00:00",
+          "body": "عندك شاشة مستخدم بي 2.5"
+        },
+        {
+          "seq_id": 2,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1711163322,
+          "date_iso": "2024-03-23T03:08:42+00:00",
+          "body": "فزااااااع \nصيانه فقط سامحني"
+        },
+        {
+          "seq_id": 3,
+          "author_username": "فزااااااع",
+          "author_id": 320900,
+          "date_unix": 1711163390,
+          "date_iso": "2024-03-23T03:09:50+00:00",
+          "body": "مشكور"
+        },
+        {
+          "seq_id": 4,
+          "author_username": "hondahc",
+          "author_id": 21490295,
+          "date_unix": 1723055900,
+          "date_iso": "2024-08-07T18:38:20+00:00",
+          "body": "في برمجة للشاشة"
+        },
+        {
+          "seq_id": 5,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1723396512,
+          "date_iso": "2024-08-11T17:15:12+00:00",
+          "body": "hondahc \tالرجاء التواصل واتس متاح برمجه"
+        },
+        {
+          "seq_id": 6,
+          "author_username": "حسن ابو لؤي",
+          "author_id": 1754136,
+          "date_unix": 1732942500,
+          "date_iso": "2024-11-30T04:55:00+00:00",
+          "body": "الشاشه المكسوره تصلح BeauSAT BST58U الذكي 4K"
+        },
+        {
+          "seq_id": 7,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1733572290,
+          "date_iso": "2024-12-07T11:51:30+00:00",
+          "body": "@حسن ياسين \tلا ما اصلح تلفزيون"
+        },
+        {
+          "seq_id": 8,
+          "author_username": "مطابع الوان الرياض",
+          "author_id": 4208001,
+          "date_unix": 1733825892,
+          "date_iso": "2024-12-10T10:18:12+00:00",
+          "body": ":: رد خاص. يظهر للعارض فقط ::"
+        },
+        {
+          "seq_id": 9,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1733827581,
+          "date_iso": "2024-12-10T10:46:21+00:00",
+          "body": "@مطابع الوان الرياض \tتواصل معي عن طريق الواتس"
+        },
+        {
+          "seq_id": 10,
+          "author_username": "راعي حلال111369",
+          "author_id": 16889380,
+          "date_unix": 1741767204,
+          "date_iso": "2025-03-12T08:13:24+00:00",
+          "body": ":: رد خاص. يظهر للعارض فقط ::"
+        },
+        {
+          "seq_id": 11,
+          "author_username": "أبونووح",
+          "author_id": 24625510,
+          "date_unix": 1767016485,
+          "date_iso": "2025-12-29T13:54:45+00:00",
+          "body": "ما شاء الله تبارك الرحمن صيانة اكثر من رائعة ربنا يصلح ما بين يديك دائما"
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-0wqQtNsmCI0tW2.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-0wqQtNsmCI0tW2.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 196024,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "مديول شاشة LED قيد الفحص (خطوط خضراء)",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "فحص مديول شاشة LED على طاولة الصيانة في جدة"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-zClzTS7KNYvKQA.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-zClzTS7KNYvKQA.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 195321,
+          "orientation": "landscape",
+          "category": "after_repair_module",
+          "category_ar": "مديول شاشة LED بعد الإصلاح والضبط 100%",
+          "recommended_section": [
+            "Portfolio (After)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "مديول شاشة LED يعمل بكفاءة 100% بعد إتمام الصيانة"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-vTb1NRhUArIoJF.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-vTb1NRhUArIoJF.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 179039,
+          "orientation": "landscape",
+          "category": "after_repair_module",
+          "category_ar": "تثبيت المديول على الكابينة بعد الصيانة",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "مديول مثبت بإحكام على الكابينة ويعمل بدون أي أخطاء بكسلات"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-UdRtBehfi7egfi.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-UdRtBehfi7egfi.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 158224,
+          "orientation": "portrait",
+          "category": "during_repair_tools",
+          "category_ar": "قطع غيار الشبك (الماسك) ومواد اللحام الاحترافية",
+          "recommended_section": [
+            "Services (Mask & Louvre Replacement)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "صورة قريبة لشبك الماسك الاحتياطي ومواد الفلاكس واللحام أثناء استبدال البكسلات التالفة"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-a8EkiepwN69qp0.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-a8EkiepwN69qp0.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 238274,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "عطل خط أحمر أفقي في المديول",
+          "recommended_section": [
+            "Services"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "عطل خط أحمر أفقي قبل الصيانة"
+        },
+        {
+          "index": 5,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-R9UcByMCLclT48.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-R9UcByMCLclT48.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 209092,
+          "orientation": "landscape",
+          "category": "during_repair_cabinet",
+          "category_ar": "ضبط المديول والماسكات على الكابينة",
+          "recommended_section": [
+            "Services"
+          ],
+          "quality_rank": "A",
+          "visual_description": "فحص استواء الماسكات والشبك على الكابينة"
+        },
+        {
+          "index": 6,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-2iOcuZd4plOM7s.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-2iOcuZd4plOM7s.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 145008,
+          "orientation": "landscape",
+          "category": "close_up_pixel_mask",
+          "category_ar": "تفاصيل دقيقة للبكسلات المتضررة على حافة المديول",
+          "recommended_section": [
+            "Services (Broken Pixel Repair)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "لقطة ماكرو للبكسلات المكسورة قبل إعادة زراعة الليدات والماسك"
+        },
+        {
+          "index": 7,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-trZNyMa5lWKsAB.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-trZNyMa5lWKsAB.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 226175,
+          "orientation": "landscape",
+          "category": "after_repair_module",
+          "category_ar": "اختبار المديول بعد إرجاعه لوضع المصنع",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "إضاءة متجانسة للمديول بعد إرجاعه لوضع المصنع بنسبة 100%"
+        },
+        {
+          "index": 8,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-FuEE7bgZ3Vslm0.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-FuEE7bgZ3Vslm0.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 205501,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "فحص بكسلات مفقودة في المديول",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "تحديد مواقع البكسلات المفقودة على المديول قبل اللحام"
+        },
+        {
+          "index": 9,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-rB3sB2wvvurrqm.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-rB3sB2wvvurrqm.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 187452,
+          "orientation": "landscape",
+          "category": "before_repair_faults",
+          "category_ar": "تلف صف البكسلات السفلي والماسك",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "B+",
+          "visual_description": "تلف في الحافة السفلية للمديول قبل الترميم"
+        }
+      ]
+    },
+    {
+      "haraj_id": "11154241986",
+      "internal_id": 154241986,
+      "url": "https://haraj.com.sa/11154241986/",
+      "canonical_path": "11154241986/مهندس_صيانة_شاشات_عرض_ليد_اسكرين_عملاقة_متواجد_بالمملكه/",
+      "title": "مهندس صيانة شاشات عرض ليد اسكرين عملاقة متواجد بالمملكه",
+      "is_in_original_6_urls": false,
+      "city": "الرياض",
+      "geo_city": "الرياض",
+      "geo_neighborhood": "الملك عبدالعزيز",
+      "geo_hash": "th3hx4x7z",
+      "post_date_unix": 1740915710,
+      "post_date_iso": "2025-03-02T11:41:50+00:00",
+      "update_date_unix": 1794506381,
+      "update_date_iso": "2026-11-12T17:59:41+00:00",
+      "price": null,
+      "tags": [
+        "كل الحراج",
+        "خدمات"
+      ],
+      "body_text": "يتوفر لدينا مهندس صيانه شاشات عرض ليد إسكرين عملاقه متواجد بالمملكه صيانة بكسيلات مكسوره واستبدالها وصيانة اعطال الاي سي والخطوط والمربعات صيانة جميع انواع البكسيل\nP 4\nP 3.91\nP 3.5\nP 3\nP 2.976\nP 2.84\nP 2.82\nP 2.6\nP 2.5\nP 2.2\nP 2\nP 1.9\nP 1.8\nP 1.6\nP 1.5\nP 1.4\nP 1.3\nP 1.2\nالتواصل عن طريق  ",
+      "comment_count": 3,
+      "comments": [
+        {
+          "seq_id": 1,
+          "author_username": "b..500",
+          "author_id": 14414142,
+          "date_unix": 1743932537,
+          "date_iso": "2025-04-06T09:42:17+00:00",
+          "body": "تصلح مسرح منزلي"
+        },
+        {
+          "seq_id": 2,
+          "author_username": "ahmed el mahalawy",
+          "author_id": 19950895,
+          "date_unix": 1743932608,
+          "date_iso": "2025-04-06T09:43:28+00:00",
+          "body": "@البحر امامكم والبر ورائكم \tلو متاح صور يمكنك ارسالها عن طريق الواتس"
+        },
+        {
+          "seq_id": 3,
+          "author_username": "b..500",
+          "author_id": 14414142,
+          "date_unix": 1743932831,
+          "date_iso": "2025-04-06T09:47:11+00:00",
+          "body": "تم التواصل"
+        }
+      ],
+      "images": [
+        {
+          "index": 0,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-3mJpHIKLzcLeVo.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-3mJpHIKLzcLeVo.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 256808,
+          "orientation": "portrait",
+          "category": "before_repair_module",
+          "category_ar": "فحص مديول شاشة عملاقة قبل الصيانة",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مديول شاشة LED على طاولة الاختبار تظهر به نقاط بكسلات فاقدة"
+        },
+        {
+          "index": 1,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-DRRNey5nBBUYsa.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-DRRNey5nBBUYsa.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 251146,
+          "orientation": "portrait",
+          "category": "after_repair_module",
+          "category_ar": "مديول شاشة عملاقة بعد إصلاح جميع البكسلات",
+          "recommended_section": [
+            "Portfolio (After)"
+          ],
+          "quality_rank": "A",
+          "visual_description": "نفس المديول بعد استبدال البكسلات المكسورة واستعادة الإضاءة الكاملة"
+        },
+        {
+          "index": 2,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-wFIPZdH12ohX7d.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-wFIPZdH12ohX7d.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 267058,
+          "orientation": "portrait",
+          "category": "after_repair_module",
+          "category_ar": "اختبار ثبات الإضاءة بعد الصيانة",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "اختبار المديول بعد الصيانة"
+        },
+        {
+          "index": 3,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-CreXJBv2fVWOID.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-CreXJBv2fVWOID.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 1000,
+          "size_bytes": 265250,
+          "orientation": "portrait",
+          "category": "before_repair_module",
+          "category_ar": "مديول قبل إصلاح البكسلات المتناثرة",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "مديول يظهر به بكسلات مطفأة متفرقة قبل الإصلاح"
+        },
+        {
+          "index": 4,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-ssiAifvRsylkl4.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-ssiAifvRsylkl4.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 204903,
+          "orientation": "landscape",
+          "category": "during_repair_module_test",
+          "category_ar": "مديول قيد التشغيل على طاولة الصيانة",
+          "recommended_section": [
+            "Portfolio"
+          ],
+          "quality_rank": "A",
+          "visual_description": "تشغيل واختبار مديول عالي الدقة على طاولة الصيانة"
+        },
+        {
+          "index": 5,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/816x612-1_-wgtXw7Kn7Oc5tW.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/816x612-1_-wgtXw7Kn7Oc5tW.jpg-700.webp",
+          "status": 200,
+          "width": 816,
+          "height": 612,
+          "size_bytes": 48974,
+          "orientation": "landscape",
+          "category": "giant_stage_screen_installed",
+          "category_ar": "شاشة عرض LED عملاقة مركبة على مسرح قاعة احتفالات/مؤتمرات (مطفي)",
+          "recommended_section": [
+            "Portfolio (Major Projects)",
+            "Hero / Venue Showcase"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "شاشة عرض LED عملاقة مثبتة على تراس (Truss) معدني في قاعة فعاليات ومؤتمرات كبرى"
+        },
+        {
+          "index": 6,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg-700.webp",
+          "status": 200,
+          "width": 900,
+          "height": 675,
+          "size_bytes": 89760,
+          "orientation": "landscape",
+          "category": "giant_stage_screen_working",
+          "category_ar": "شاشة عرض LED عملاقة تعمل بكفاءة 100% على المسرح بعد الصيانة والبرمجة",
+          "recommended_section": [
+            "Hero",
+            "Portfolio (Major Projects Highlight)",
+            "Services (Programming & Full Screen Setup)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "شاشة عرض LED عملاقة مضاءة بالكامل وتعرض سطح المكتب بوضوح وألوان متطابقة 100% داخل قاعة الفعاليات الكبرى"
+        },
+        {
+          "index": 7,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x562-1_-eUXgBiODmgo2ye.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/750x562-1_-eUXgBiODmgo2ye.jpg-700.webp",
+          "status": 200,
+          "width": 750,
+          "height": 562,
+          "size_bytes": 38193,
+          "orientation": "landscape",
+          "category": "giant_stage_screen_working",
+          "category_ar": "لقطة ثانية للشاشة العملاقة أثناء التشغيل والاختبار النهائي",
+          "recommended_section": [
+            "Portfolio (Major Projects)"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "زاوية أخرى للشاشة العملاقة بعد انتهاء الصيانة والبرمجة والتسليم 100%"
+        },
+        {
+          "index": 8,
+          "url": "https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/576x432-1_-QTREc51r9XEbvq.jpg",
+          "webp_url": "https://postcdn.haraj.com.sa/userfiles30/2025-3-2/576x432-1_-QTREc51r9XEbvq.jpg-700.webp",
+          "status": 200,
+          "width": 576,
+          "height": 432,
+          "size_bytes": 29006,
+          "orientation": "landscape",
+          "category": "engineer_portrait_outdoor_event",
+          "category_ar": "المهندس أحمد المحلاوي في موقع عمل خارجي للفعاليات الكبرى بالمملكة",
+          "recommended_section": [
+            "About Engineer",
+            "Trust & Field Presence"
+          ],
+          "quality_rank": "A+",
+          "visual_description": "صورة ميدانية للمهندس أحمد المحلاوي في موقع تجهيز خيام وفعاليات كبرى بالمملكة العربية السعودية"
+        }
+      ]
+    }
+  ]
+}

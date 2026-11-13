@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>المهندس أحمد المحلاوي | خبير صيانة الشاشات العملاقة LED Screens والإلكترونيات المتقدمة</title>
+  <meta name="description" content="المهندس أحمد المحلاوي — مهندس متخصص في صيانة وبرمجة شاشات عرض الليد إسكرين العملاقة (LED Video Walls P1 - P5) بالميكروسكوب الإلكتروني، إصلاح البكسلات والآي سي، تركيب الشبك والماسكات، وإصلاح إضاءة المسارح وتجهيزات الصوتيات الاحترافية في جدة، مكة، الطائف، الرياض وكافة أنحاء المملكة. للتواصل: 0545303140" />
+  <meta name="keywords" content="أحمد المحلاوي, صيانة شاشات عملاقة, صيانة شاشات ليد اسكرين, LED Screen Repair Saudi, برمجة شاشات ليد, إصلاح بكسلات مكسورة, صيانة مديولات LED, مكسر ديناكورد ألماني, صيانة إضاءة مسارح, جدة, الطائف, مكة, الرياض" />
+  <meta name="author" content="المهندس أحمد المحلاوي" />
+  <meta name="theme-color" content="#020617" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="المهندس أحمد المحلاوي | خبير صيانة الشاشات العملاقة والإلكترونيات المتقدمة" />
+  <meta property="og:description" content="دقة هندسية تحت الميكروسكوب الإلكتروني لإرجاع مديولات شاشات الـ LED العملاقة (P1 إلى P5) لوضع المصنع بنسبة 100%. تواصل مباشر: 0545303140" />
+  <meta property="og:image" content="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_SA" />
+
+  <!-- Google Fonts: Cairo & Tajawal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            cairo: ['Cairo', 'sans-serif'],
+            tajawal: ['Tajawal', 'sans-serif'],
+          },
+          colors: {
+            navy: {
+              950: '#020617',
+              900: '#070e24',
+              800: '#0c1938',
+              700: '#132654',
+            },
+            tech: {
+              cyan: '#06b6d4',
+              sky: '#0ea5e9',
+              electric: '#2563eb',
+              emerald: '#10b981',
+              amber: '#f59e0b',
+            }
+          },
+          boxShadow: {
+            'glow-cyan': '0 0 28px -4px rgba(6, 182, 212, 0.45)',
+            'glow-blue': '0 0 35px -5px rgba(14, 165, 233, 0.4)',
+            'glow-emerald': '0 0 25px -4px rgba(16, 185, 129, 0.45)',
+          },
+          backgroundImage: {
+            'grid-pattern': 'linear-gradient(to left, rgba(14, 165, 233, 0.07) 1px, transparent 1px), linear-gradient(to bottom, rgba(14, 165, 233, 0.07) 1px, transparent 1px)',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      font-family: 'Cairo', 'Tajawal', sans-serif;
+      background-color: #020617;
+      color: #f8fafc;
+      overflow-x: hidden;
+    }
+
+    /* Subtle LED matrix background effect */
+    .led-matrix-bg {
+      background-size: 32px 32px;
+      background-image: 
+        radial-gradient(circle, rgba(6, 182, 212, 0.12) 1px, transparent 1px),
+        linear-gradient(to left, rgba(15, 23, 42, 0.6) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.6) 1px, transparent 1px);
+    }
+
+    /* Glassmorphism cards */
+    .glass-card {
+      background: rgba(15, 23, 42, 0.78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(56, 189, 248, 0.16);
+    }
+
+    .glass-card-hover {
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-5px);
+      border-color: rgba(6, 182, 212, 0.5);
+      box-shadow: 0 20px 40px -15px rgba(6, 182, 212, 0.22);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #020617;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 5px;
+      border: 2px solid #020617;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0ea5e9;
+    }
+
+    /* Animated pulse ring */
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      70% { transform: scale(1.35); opacity: 0; }
+      100% { transform: scale(1.35); opacity: 0; }
+    }
+    .pulse-ring::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: inherit;
+      background: rgba(16, 185, 129, 0.5);
+      z-index: -1;
+      animation: pulse-ring 2s infinite;
+    }
+
+    /* Active Tab Styling */
+    .stage-tab-active {
+      background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+      color: #ffffff !important;
+      border-color: #38bdf8 !important;
+      box-shadow: 0 4px 14px rgba(14, 165, 233, 0.35);
+    }
+
+    .filter-btn-active {
+      background: linear-gradient(135deg, #06b6d4 0%, #2563eb 100%);
+      color: #ffffff !important;
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 22px rgba(6, 182, 212, 0.4);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-gradient-to-l from-slate-900 via-cyan-950/80 to-slate-900 border-b border-cyan-500/20 text-xs sm:text-sm py-2.5 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2 text-cyan-300 font-medium">
+        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/40">
+          <i class="fa-solid fa-microscope text-[11px]"></i>
+        </span>
+        <span>صيانة وبرمجة شاشات عرض الليد إسكرين العملاقة (<strong>LED Screens P1 - P5</strong>) بدقة المصنع 100%</span>
+      </div>
+      <div class="flex items-center gap-4 text-slate-300">
+        <span class="hidden md:inline-flex items-center gap-1.5">
+          <i class="fa-solid fa-location-dot text-cyan-400"></i>
+          جدة • مكة المكرمة • الطائف • الرياض • كافة أنحاء المملكة
+        </span>
+        <a href="tel:+966545303140" class="inline-flex items-center gap-1.5 text-amber-400 hover:text-amber-300 font-bold transition">
+          <i class="fa-solid fa-phone-volume animate-bounce"></i>
+          <span dir="ltr">0545303140</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1. HEADER / NAVIGATION -->
+  <header id="main-header" class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-xl border-b border-slate-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo -->
+        <a href="#hero" class="flex items-center gap-3 group focus:outline-none">
+          <div class="relative w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 via-sky-600 to-blue-700 p-[1px] shadow-glow-cyan">
+            <div class="w-full h-full bg-slate-950 rounded-[11px] flex items-center justify-center relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-transparent"></div>
+              <i class="fa-solid fa-microchip text-cyan-400 text-xl group-hover:scale-110 transition-transform"></i>
+            </div>
+            <span class="absolute -bottom-1 -left-1 w-4 h-4 rounded-full bg-emerald-500 border-2 border-slate-950 flex items-center justify-center" title="موثق عبر النفاذ الوطني">
+              <i class="fa-solid fa-check text-[8px] text-slate-950 font-black"></i>
+            </span>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-lg sm:text-xl font-extrabold tracking-tight bg-gradient-to-l from-white via-slate-100 to-cyan-300 bg-clip-text text-transparent">
+                م. أحمد المحلاوي
+              </span>
+              <span class="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                <i class="fa-solid fa-circle-check"></i> موثق
+              </span>
+            </div>
+            <p class="text-[11px] sm:text-xs text-slate-400 font-tajawal">
+              خبير صيانة الشاشات العملاقة <span class="text-cyan-400 font-semibold">LED Screens</span> والإلكترونيات
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden xl:flex items-center gap-1 lg:gap-2 text-sm font-semibold text-slate-300">
+          <a href="#services" class="px-3 py-2 rounded-lg hover:text-cyan-400 hover:bg-slate-900/70 transition">الخدمات الهندسية</a>
+          <a href="#about" class="px-3 py-2 rounded-lg hover:text-cyan-400 hover:bg-slate-900/70 transition">عن المهندس والمعمل</a>
+          <a href="#portfolio" class="px-3 py-2 rounded-lg hover:text-cyan-400 hover:bg-slate-900/70 transition">معرض المشاريع (قبل/بعد)</a>
+          <a href="#why-us" class="px-3 py-2 rounded-lg hover:text-cyan-400 hover:bg-slate-900/70 transition">لماذا نحن؟</a>
+          <a href="#testimonials" class="px-3 py-2 rounded-lg hover:text-cyan-400 hover:bg-slate-900/70 transition">آراء العملاء</a>
+          <a href="#contact" class="px-3 py-2 rounded-lg hover:text-cyan-400 hover:bg-slate-900/70 transition">تواصل معنا</a>
+        </nav>
+
+        <!-- Action Buttons (Desktop) -->
+        <div class="hidden md:flex items-center gap-2.5">
+          <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A8%D8%A7%D8%B4%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%20LED%20%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9" target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600 text-emerald-400 hover:text-white border border-emerald-500/40 font-bold text-xs sm:text-sm transition-all duration-200">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>واتساب مباشر</span>
+          </a>
+          <a href="tel:+966545303140"
+             class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-l from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold text-xs sm:text-sm shadow-glow-cyan transition-all duration-200">
+            <i class="fa-solid fa-phone-flip"></i>
+            <span>اتصل الآن: <span dir="ltr">0545303140</span></span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center gap-2 xl:hidden">
+          <a href="tel:+966545303140" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/30" aria-label="اتصال">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <button id="mobile-menu-btn" type="button" class="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-slate-900 text-slate-200 hover:text-cyan-400 border border-slate-700 focus:outline-none" aria-label="القائمة">
+            <i id="mobile-menu-icon" class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden xl:hidden bg-slate-900/95 backdrop-blur-2xl border-b border-slate-800 px-4 pt-3 pb-6 space-y-3">
+      <div class="grid grid-cols-2 gap-2 text-sm font-bold">
+        <a href="#services" class="mobile-nav-link px-3.5 py-2.5 rounded-xl bg-slate-800/70 hover:bg-cyan-500/20 text-slate-200 hover:text-cyan-300 flex items-center gap-2">
+          <i class="fa-solid fa-screwdriver-wrench text-cyan-400"></i> الخدمات الهندسية
+        </a>
+        <a href="#about" class="mobile-nav-link px-3.5 py-2.5 rounded-xl bg-slate-800/70 hover:bg-cyan-500/20 text-slate-200 hover:text-cyan-300 flex items-center gap-2">
+          <i class="fa-solid fa-user-gear text-cyan-400"></i> عن المهندس
+        </a>
+        <a href="#portfolio" class="mobile-nav-link px-3.5 py-2.5 rounded-xl bg-slate-800/70 hover:bg-cyan-500/20 text-slate-200 hover:text-cyan-300 flex items-center gap-2">
+          <i class="fa-solid fa-images text-cyan-400"></i> معرض المشاريع
+        </a>
+        <a href="#why-us" class="mobile-nav-link px-3.5 py-2.5 rounded-xl bg-slate-800/70 hover:bg-cyan-500/20 text-slate-200 hover:text-cyan-300 flex items-center gap-2">
+          <i class="fa-solid fa-award text-cyan-400"></i> لماذا نحن؟
+        </a>
+        <a href="#testimonials" class="mobile-nav-link px-3.5 py-2.5 rounded-xl bg-slate-800/70 hover:bg-cyan-500/20 text-slate-200 hover:text-cyan-300 flex items-center gap-2">
+          <i class="fa-solid fa-comments text-cyan-400"></i> آراء العملاء
+        </a>
+        <a href="#contact" class="mobile-nav-link px-3.5 py-2.5 rounded-xl bg-slate-800/70 hover:bg-cyan-500/20 text-slate-200 hover:text-cyan-300 flex items-center gap-2">
+          <i class="fa-solid fa-envelope text-cyan-400"></i> تواصل معنا
+        </a>
+      </div>
+      <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+        <a href="tel:+966545303140" class="w-full py-3 rounded-xl bg-gradient-to-l from-cyan-500 to-blue-600 text-white font-bold text-center text-sm flex items-center justify-center gap-2 shadow-glow-cyan">
+          <i class="fa-solid fa-phone-volume"></i>
+          <span>اتصل الآن: <span dir="ltr">0545303140</span></span>
+        </a>
+        <a href="https://wa.me/966545303140" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-emerald-600 text-white font-bold text-center text-sm flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>تواصل عبر الواتساب المباشر</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section id="hero" class="relative pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden led-matrix-bg">
+    <!-- Ambient Glowing Orbs -->
+    <div class="absolute top-0 right-1/4 w-[500px] h-[500px] bg-cyan-500/15 rounded-full blur-[130px] pointer-events-none"></div>
+    <div class="absolute bottom-0 left-10 w-[450px] h-[450px] bg-blue-600/15 rounded-full blur-[130px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Right Column: High-Converting Copy & CTAs (7 cols) -->
+        <div class="lg:col-span-7 space-y-6 text-right">
+          
+          <!-- Trust Pill -->
+          <div class="inline-flex flex-wrap items-center gap-2 px-4 py-2 rounded-full bg-slate-900/90 border border-cyan-500/30 shadow-lg">
+            <span class="flex h-2.5 w-2.5 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-500"></span>
+            </span>
+            <span class="text-xs sm:text-sm font-bold text-cyan-300">
+              صيانة تخصصية دقيقة بالميكروسكوب الإلكتروني • تسليم ووضع مصنع 100%
+            </span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-3xl sm:text-5xl lg:text-[52px] font-black leading-[1.22] tracking-tight text-white">
+            احترافية لا تقبل الجدل في صيانة
+            <span class="bg-gradient-to-l from-cyan-400 via-sky-400 to-blue-500 bg-clip-text text-transparent block mt-1">
+              الشاشات العملاقة والأنظمة الإلكترونية المتقدمة
+            </span>
+          </h1>
+
+          <!-- Sub-headline -->
+          <p class="text-base sm:text-lg lg:text-xl text-slate-300 font-tajawal leading-relaxed max-w-2xl">
+            بإشراف <strong class="text-white font-bold">المهندس أحمد المحلاوي</strong>، نعيد تأهيل شاشات العرض العملاقة (<span class="text-cyan-400 font-semibold">Giant LED Video Walls</span>) للمسارح والمؤتمرات والدعاية والإعلان. نصلح البكسلات المكسورة، أعطال الآي سي (<span class="text-cyan-300">Driver ICs</span>)، الخطوط والمربعات، ونركب الشبك والماسكات مع البرمجة الكاملة لإرجاع المديول إلى <strong class="text-emerald-400 underline decoration-emerald-500/50 underline-offset-4">وضع المصنع بنسبة 100%</strong> لجميع مقاسات البكسل من <code class="text-cyan-300 font-bold">P1</code> إلى <code class="text-cyan-300 font-bold">P5</code>.
+          </p>
+
+          <!-- Key Technical Highlights List -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+            <div class="flex items-center gap-3 bg-slate-900/60 border border-slate-800 rounded-xl px-4 py-3">
+              <div class="w-9 h-9 rounded-lg bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 shrink-0">
+                <i class="fa-solid fa-microscope"></i>
+              </div>
+              <div class="text-xs sm:text-sm">
+                <div class="font-bold text-white">لحام مجهري بالميكروسكوب</div>
+                <div class="text-slate-400 font-tajawal">زراعة البكسلات المكسورة وإصلاح المسارات</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-3 bg-slate-900/60 border border-slate-800 rounded-xl px-4 py-3">
+              <div class="w-9 h-9 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+              <div class="text-xs sm:text-sm">
+                <div class="font-bold text-white">برمجة ومعايرة وتركيب ماسكات</div>
+                <div class="text-slate-400 font-tajawal">ضبط الشبكة والألوان وتسليم 100% بدون مشاكل</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dual CTA Buttons -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+            <a href="#contact"
+               class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-l from-cyan-500 via-sky-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-extrabold text-base sm:text-lg shadow-glow-cyan transition-all duration-300 transform hover:-translate-y-0.5">
+              <i class="fa-solid fa-calendar-check text-xl"></i>
+              <span>احجز خدمة الصيانة الآن</span>
+            </a>
+            <a href="#portfolio"
+               class="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-slate-900/90 hover:bg-slate-800 text-slate-100 hover:text-cyan-300 border border-slate-700 hover:border-cyan-500/50 font-bold text-base sm:text-lg transition-all duration-300">
+              <i class="fa-solid fa-layer-group text-cyan-400"></i>
+              <span>استعرض مشاريعنا (قبل وبعد)</span>
+            </a>
+          </div>
+
+          <!-- Direct Contact Quick Strip -->
+          <div class="pt-2 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs sm:text-sm text-slate-400">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-phone text-cyan-400"></i>
+              <span>الخط المباشر للمهندس:</span>
+              <a href="tel:+966545303140" class="text-white font-bold hover:text-cyan-400 underline" dir="ltr">0545303140</a>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+              <span>متاح للرد السريع واستقبال صور الأعطال عبر واتساب</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left Column: Visual Showcase (Real Engineer at Microscope + Giant Screen + Workshop) (5 cols) -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            
+            <!-- Main Showcase Card: Giant Stage Screen + Engineer at Microscope -->
+            <div class="glass-card rounded-3xl p-3 sm:p-4 shadow-2xl border border-cyan-500/30 relative z-20">
+              
+              <!-- Top Image: Giant Stage LED Screen Working 100% -->
+              <div class="relative rounded-2xl overflow-hidden aspect-[4/3] bg-slate-900 group cursor-pointer" onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg', 'تسليم شاشة عرض LED عملاقة في قاعة احتفالات ومؤتمرات تعمل بكفاءة 100% بعد الصيانة والبرمجة')">
+                <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg"
+                     alt="شاشة عرض LED عملاقة تعمل بكفاءة 100% بعد الصيانة والبرمجة"
+                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+                
+                <!-- Live Status Badge -->
+                <div class="absolute top-3 right-3 px-3 py-1.5 rounded-full bg-slate-950/85 backdrop-blur-md border border-emerald-500/40 flex items-center gap-2 text-xs font-bold text-emerald-400">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                  <span>نتيجة حقيقية بعد الصيانة والبرمجة 100%</span>
+                </div>
+
+                <div class="absolute bottom-3 right-3 left-3 flex items-end justify-between text-white">
+                  <div>
+                    <span class="text-[11px] text-cyan-300 font-bold block">مشاريع القاعات والمسارح الكبرى</span>
+                    <h3 class="text-sm sm:text-base font-extrabold">صيانة وبرمجة شاشات الليد إسكرين العملاقة</h3>
+                  </div>
+                  <span class="w-9 h-9 rounded-xl bg-slate-900/80 border border-slate-700 flex items-center justify-center text-cyan-400 shrink-0">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Bottom Dual Grid: Engineer at Microscope + Full Workshop -->
+              <div class="grid grid-cols-2 gap-3 mt-3">
+                <!-- Engineer at Microscope -->
+                <div class="relative rounded-2xl overflow-hidden h-44 sm:h-48 bg-slate-900 group cursor-pointer border border-slate-800"
+                     onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-kvqL410iDIa3hw.jpg', 'المهندس أحمد المحلاوي أثناء الصيانة الدقيقة لبوردات ومديولات الشاشات تحت الميكروسكوب الإلكتروني')">
+                  <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-kvqL410iDIa3hw.jpg"
+                       alt="المهندس أحمد المحلاوي يعمل تحت الميكروسكوب الإلكتروني"
+                       class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+                  <div class="absolute bottom-2.5 right-2.5 left-2.5">
+                    <span class="inline-block px-2 py-0.5 rounded bg-cyan-500/20 border border-cyan-500/40 text-cyan-300 text-[10px] font-bold mb-1">دقة مجهرية</span>
+                    <p class="text-xs font-bold text-white leading-snug">م. أحمد المحلاوي على الميكروسكوب الإلكتروني</p>
+                  </div>
+                </div>
+
+                <!-- Workshop Lab Overview -->
+                <div class="relative rounded-2xl overflow-hidden h-44 sm:h-48 bg-slate-900 group cursor-pointer border border-slate-800"
+                     onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-WW2l2VKdRHhc4F.jpg', 'معمل متكامل لصيانة وفحص كبائن ومديولات شاشات الليد إسكرين العملاقة')">
+                  <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-WW2l2VKdRHhc4F.jpg"
+                       alt="معمل صيانة شاشات الليد إسكرين العملاقة"
+                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+                  <div class="absolute bottom-2.5 right-2.5 left-2.5">
+                    <span class="inline-block px-2 py-0.5 rounded bg-blue-500/20 border border-blue-500/40 text-blue-300 text-[10px] font-bold mb-1">تجهيز متكامل</span>
+                    <p class="text-xs font-bold text-white leading-snug">معمل فحص وصيانة الكبائن والمديولات</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Stats Bar -->
+      <div class="mt-14 lg:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-2xl shrink-0">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <div>
+            <div class="text-2xl sm:text-3xl font-black text-white">100%</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">إرجاع المديول لوضع المصنع</div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl shrink-0">
+            <i class="fa-solid fa-border-all"></i>
+          </div>
+          <div>
+            <div class="text-2xl sm:text-3xl font-black text-white" dir="ltr">P1 → P5</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">دعم +20 مقاس بكسل دقيق</div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-2xl shrink-0">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <div>
+            <div class="text-lg sm:text-xl font-black text-white">تغطية للمملكة</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">جدة • مكة • الطائف • الرياض</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. SUPPORTED PIXEL PITCHES BAR & ABOUT ENGINEER / LAB SECTION -->
+  <section id="about" class="py-16 lg:py-24 bg-slate-900/50 border-y border-slate-800/80 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      
+      <!-- Supported Pixel Pitches Showcase -->
+      <div class="glass-card rounded-3xl p-6 sm:p-8 border border-cyan-500/25 shadow-xl">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-800">
+          <div>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-cyan-400 block mb-1">
+              <i class="fa-solid fa-grip text-cyan-400 ml-1"></i> Supported Pixel Pitches
+            </span>
+            <h2 class="text-xl sm:text-2xl font-black text-white">
+              ندعم صيانة وإصلاح جميع مقاسات البكسل لشاشات الليد إسكرين الداخلية والخارجية
+            </h2>
+          </div>
+          <span class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-bold shrink-0">
+            <i class="fa-solid fa-check-double"></i>
+            زراعة بكسلات + آي سي + ماسكات متوافقة 100%
+          </span>
+        </div>
+
+        <!-- Pixel Pitch Badges Grid (All 20 Pitches extracted by Fahd) -->
+        <div class="mt-6">
+          <div class="text-xs text-slate-400 mb-3 font-tajawal">
+            المقاسات الأساسية والموسعة المدعومة في معمل المهندس أحمد المحلاوي (اضغط على أي مقاس لطلب صيانته مباشرة):
+          </div>
+          <div class="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-2.5" dir="ltr">
+            <a href="#contact" onclick="selectPitchInForm('P1')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition shadow-sm">P1</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.2')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P1.2</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.3')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P1.3</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.4')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P1.4</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.5')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P1.5</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.6')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P1.6</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.8')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P1.8</a>
+            <a href="#contact" onclick="selectPitchInForm('P1.9')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P1.9</a>
+            <a href="#contact" onclick="selectPitchInForm('P2')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P2</a>
+            <a href="#contact" onclick="selectPitchInForm('P2.2')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P2.2</a>
+            <a href="#contact" onclick="selectPitchInForm('P2.5')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P2.5</a>
+            <a href="#contact" onclick="selectPitchInForm('P2.6')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P2.6</a>
+            <a href="#contact" onclick="selectPitchInForm('P2.82')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P2.82</a>
+            <a href="#contact" onclick="selectPitchInForm('P2.84')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P2.84</a>
+            <a href="#contact" onclick="selectPitchInForm('P2.976')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition text-xs flex items-center justify-center">P2.976</a>
+            <a href="#contact" onclick="selectPitchInForm('P3')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P3</a>
+            <a href="#contact" onclick="selectPitchInForm('P3.5')" class="px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-cyan-400 text-center font-bold text-slate-200 hover:text-cyan-300 transition">P3.5</a>
+            <a href="#contact" onclick="selectPitchInForm('P3.91')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P3.91</a>
+            <a href="#contact" onclick="selectPitchInForm('P4')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P4</a>
+            <a href="#contact" onclick="selectPitchInForm('P5')" class="px-3 py-2.5 rounded-xl bg-gradient-to-b from-cyan-500/20 to-slate-900 border border-cyan-500/40 hover:border-cyan-400 text-center font-black text-cyan-300 hover:text-white transition">P5</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Engineer Ahmed El-Mahalawy & His Lab -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Visual Collage of the Engineer (5 cols) -->
+        <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+          <!-- Portrait 1: Smiling in Lab with Microscope -->
+          <div class="col-span-1 relative rounded-2xl overflow-hidden h-80 sm:h-96 border border-cyan-500/30 group cursor-pointer shadow-lg"
+               onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg', 'المهندس أحمد المحلاوي في معمل الصيانة بجانب الميكروسكوب الإلكتروني')">
+            <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg"
+                 alt="المهندس أحمد المحلاوي في معمل الصيانة"
+                 class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 right-3 left-3">
+              <span class="px-2.5 py-0.5 rounded-full bg-cyan-500/20 border border-cyan-400/40 text-cyan-300 text-[10px] font-bold">داخل المعمل</span>
+              <p class="text-xs sm:text-sm font-bold text-white mt-1">م. أحمد المحلاوي</p>
+            </div>
+          </div>
+
+          <!-- Right column of 2 stacked photos -->
+          <div class="col-span-1 flex flex-col gap-4 h-80 sm:h-96">
+            <!-- Portrait 2: Precision Microscope Inspection -->
+            <div class="relative rounded-2xl overflow-hidden flex-1 border border-slate-800 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-U4FzbPW0TGxFJw.jpg', 'دقة متناهية في فحص ولحام البكسلات والآي سي عبر الميكروسكوب المزدوج')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-U4FzbPW0TGxFJw.jpg"
+                   alt="فحص البكسلات بالميكروسكوب"
+                   class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+              <div class="absolute bottom-2.5 right-2.5 left-2.5">
+                <p class="text-[11px] font-bold text-cyan-300">فحص مجهري للمسارات والـ IC</p>
+              </div>
+            </div>
+
+            <!-- Portrait 3: Field Presence at Major Event Venue -->
+            <div class="relative rounded-2xl overflow-hidden flex-1 border border-slate-800 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/576x432-1_-QTREc51r9XEbvq.jpg', 'تواجد ميداني للمهندس أحمد المحلاوي في مواقع الفعاليات والمؤتمرات الكبرى بالمملكة')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/576x432-1_-QTREc51r9XEbvq.jpg"
+                   alt="المهندس أحمد المحلاوي في مواقع الفعاليات الكبرى بالمملكة"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+              <div class="absolute bottom-2.5 right-2.5 left-2.5">
+                <p class="text-[11px] font-bold text-emerald-300">تواجد ميداني في مواقع الفعاليات</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bio & Lab Capabilities (7 cols) -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-bold">
+            <i class="fa-solid fa-user-shield"></i>
+            <span>عن الخبير ومعمل الصيانة المتخصص</span>
+          </div>
+
+          <h2 class="text-2xl sm:text-4xl font-black text-white leading-tight">
+            المهندس أحمد المحلاوي — خبرة ميدانية ومعملية تجمع بين <span class="text-cyan-400">الهندسة الدقيقة</span> والالتزام التام
+          </h2>
+
+          <p class="text-slate-300 font-tajawal text-base sm:text-lg leading-relaxed">
+            يُعد <strong class="text-white">المهندس أحمد المحلاوي</strong> مرجعاً موثوقاً للشركات، وكالات الدعاية والإعلان، قصور الأفراح، ومنظمي الفعاليات والمؤتمرات في المملكة العربية السعودية لصيانة وبرمجة شاشات العرض العملاقة (<strong class="text-cyan-300">LED Video Walls</strong>) وأنظمة الإضاءة المسرحية الاحترافية.
+          </p>
+
+          <p class="text-slate-300 font-tajawal text-base sm:text-lg leading-relaxed">
+            داخل معمل متكامل مجهز بأحدث الميكروسكوبات الإلكترونية المزدوجة ومحطات اللحام الحراري الدقيق (<span class="text-cyan-300">SMD Micro-Soldering</span>)، يتم التعامل مع أعقد أعطال المديولات والكبائن التي يظن البعض أنها تالفة بالكامل، وإعادتها للعمل بوضع المصنع بنسبة 100% دون أي فروقات لونية أو تشوه في السطح.
+          </p>
+
+          <!-- Geographic Coverage Card -->
+          <div class="pt-2">
+            <div class="p-4 rounded-2xl bg-slate-900/90 border border-slate-800">
+              <div class="flex items-center gap-2 text-cyan-400 font-bold text-sm mb-1.5">
+                <i class="fa-solid fa-map-pin"></i>
+                <span>نطاق التواجد والخدمة في المملكة</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-300 font-tajawal leading-relaxed">
+                تغطية مباشرة في <strong>الطائف</strong> (حي حوايا)، <strong>مكة المكرمة</strong> (الشرائع)، <strong>جدة</strong> (السامر)، و<strong>الرياض</strong> (حي الملك عبدالعزيز)، مع استقبال الشاشات والطلبات من <strong>المدينة المنورة</strong> وكافة مناطق المملكة.
+              </p>
+            </div>
+          </div>
+
+          <div class="pt-2 flex flex-wrap items-center gap-4">
+            <a href="https://wa.me/966545303140" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-glow-emerald transition">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>أرسل صورة أو فيديو العطل للمهندس الآن</span>
+            </a>
+            <a href="https://haraj.com.sa/users/ahmed%20el%20mahalawy" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-bold border border-slate-700 transition">
+              <i class="fa-solid fa-arrow-up-right-from-square text-cyan-400"></i>
+              <span>صفحة المهندس الموثقة في حراج</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. SERVICES SECTION (خدمات الصيانة والحلول الهندسية) -->
+  <section id="services" class="py-20 lg:py-28 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs sm:text-sm font-bold">
+          <i class="fa-solid fa-gears"></i>
+          <span>حلول هندسية متكاملة للشاشات العملاقة والإلكترونيات</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
+          خدمات الصيانة التخصصية الدقيقة
+        </h2>
+        <p class="text-slate-400 font-tajawal text-base sm:text-lg">
+          نقدم منظومة متكاملة من خدمات الفحص، الإصلاح المجهري، البرمجة، وإعادة التأهيل لشاشات الليد إسكرين العملاقة وأنظمة المسارح بأعلى معايير الجودة.
+        </p>
+      </div>
+
+      <!-- 6 Comprehensive Service Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+        <!-- Service 1: Microscopic Broken Pixel Repair -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="relative h-56 overflow-hidden bg-slate-900 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Dl0xXfQt8xpb1L.jpg', 'تصوير مقرب للبكسلات المكسورة والماسكات قبل زراعتها وإرجاع المديول لوضع المصنع 100%')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Dl0xXfQt8xpb1L.jpg"
+                   alt="إصلاح البكسلات المكسورة بالميكروسكوب"
+                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full bg-cyan-500/20 backdrop-blur-md border border-cyan-400/40 text-cyan-300 text-xs font-bold">
+                دقة مجهرية 100%
+              </span>
+              <div class="absolute bottom-3 right-4 w-11 h-11 rounded-2xl bg-cyan-500 text-slate-950 flex items-center justify-center text-xl shadow-glow-cyan">
+                <i class="fa-solid fa-microscope"></i>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-extrabold text-white">
+                صيانة اللوحات الدقيقة وزراعة البكسلات بالميكروسكوب
+              </h3>
+              <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+                إصلاح واستبدال البكسلات المكسورة أو التالفة (<span class="text-cyan-300">SMD / GOB LED Pixels</span>) تحت الميكروسكوب الإلكتروني، وترميم الحواف المتآكلة ومسارات النحاس الدقيقة لإرجاع المديول إلى <strong>وضع المصنع بنسبة 100%</strong> بدون أي تباين لوني.
+              </p>
+              <ul class="space-y-1.5 pt-2 text-xs text-slate-300 font-tajawal">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> زراعة بكسلات مطابقة لنفس الدفعة اللونية</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> دعم المقاسات فائقة الدقة <span dir="ltr">P1, P1.2, P1.5, P1.8, P2</span></li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> تعويض المسارات المقطوعة على الـ PCB</li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%A8%D9%83%D8%B3%D9%84%D8%A7%D8%AA%20%D9%85%D9%83%D8%B3%D9%88%D8%B1%D8%A9%20%D9%81%D9%8A%20%D9%85%D8%AF%D9%8A%D9%88%D9%84%D8%A7%D8%AA%20LED" target="_blank" rel="noopener noreferrer"
+               class="w-full py-3 rounded-xl bg-slate-800/90 hover:bg-cyan-500 text-cyan-300 hover:text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-cyan-500/30 transition">
+              <span>اطلب صيانة البكسلات والمديول</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 2: IC, Lines & Color Blocks Repair -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="relative h-56 overflow-hidden bg-slate-900 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-YcRJ0ATAM5Q5GN.jpg', 'تشخيص وإصلاح أعطال الآي سي (Driver IC) والمربعات اللونية والخطوط العمودية والأفقية')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-YcRJ0ATAM5Q5GN.jpg"
+                   alt="إصلاح أعطال الآي سي والخطوط والمربعات اللونية"
+                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full bg-blue-500/20 backdrop-blur-md border border-blue-400/40 text-blue-300 text-xs font-bold">
+                إصلاح Driver ICs
+              </span>
+              <div class="absolute bottom-3 right-4 w-11 h-11 rounded-2xl bg-blue-500 text-white flex items-center justify-center text-xl shadow-glow-blue">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-extrabold text-white">
+                إصلاح أعطال الـ IC والخطوط والمربعات اللونية
+              </h3>
+              <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+                تشخيص وإصلاح جذري لأعطال آي سيهات الألوان والدرايفر (<span class="text-cyan-300">Driver & Row Decoding ICs</span>) التي تسبب ظهور خطوط خضراء أو حمراء عمودية وأفقية، أو مربعات لونية بنفسجية ومطفأة على المديول.
+              </p>
+              <ul class="space-y-1.5 pt-2 text-xs text-slate-300 font-tajawal">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> معالجة الخطوط العمودية والأفقية الفاصلة</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> إزالة المربعات البنفسجية وتشتت الإضاءة</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> استبدال الـ IC بقطع أصلية مطابقة للترميز</li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D9%84%D8%AF%D9%8A%20%D8%B9%D8%B7%D9%84%20%D8%AE%D8%B7%D9%88%D8%B7%20%D8%A3%D9%88%20%D9%85%D8%B1%D8%A8%D8%B9%D8%A7%D8%AA%20%D8%A2%D9%8A%20%D8%B3%D9%8A%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9" target="_blank" rel="noopener noreferrer"
+               class="w-full py-3 rounded-xl bg-slate-800/90 hover:bg-cyan-500 text-cyan-300 hover:text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-cyan-500/30 transition">
+              <span>اطلب إصلاح أعطال الـ IC والخطوط</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 3: Masks & Louvres + Advertising Outdoor/Indoor Screens -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="relative h-56 overflow-hidden bg-slate-900 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg', 'عملية تركيب الشبك والماسكات (Masks & Louvres) بدقة عالية لحماية وجه المديول')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg"
+                   alt="تركيب الشبك والماسكات لشاشات الليد"
+                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full bg-emerald-500/20 backdrop-blur-md border border-emerald-400/40 text-emerald-300 text-xs font-bold">
+                ضبط مصنعي 100%
+              </span>
+              <div class="absolute bottom-3 right-4 w-11 h-11 rounded-2xl bg-emerald-500 text-slate-950 flex items-center justify-center text-xl shadow-glow-emerald">
+                <i class="fa-solid fa-table-cells"></i>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-extrabold text-white">
+                صيانة الشاشات الإعلانية وتركيب الشبك والماسكات
+              </h3>
+              <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+                تركيب وتثبيت الشبك والماسكات (<span class="text-cyan-300">Masks & Louvres</span>) مضبوطة 100% لشاشات الدعاية والإعلان الداخلية والخارجية (<span class="text-cyan-300">Indoor & Outdoor LED</span>)، مما يضمن حماية البكسلات وتوحيد التباين اللوني للواجهة.
+              </p>
+              <ul class="space-y-1.5 pt-2 text-xs text-slate-300 font-tajawal">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> استواء كامل لسطح المديول بدون بروز</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> حماية المديولات من العوامل الجوية والصدمات</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> تسليم الشاشة 100% بدون أي تشوه بصري</li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D8%B4%D8%A8%D9%83%20%D9%88%D9%85%D8%A7%D8%B3%D9%83%D8%A7%D8%AA%20%D9%84%D8%B4%D8%A7%D8%B4%D8%A9%20LED" target="_blank" rel="noopener noreferrer"
+               class="w-full py-3 rounded-xl bg-slate-800/90 hover:bg-cyan-500 text-cyan-300 hover:text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-cyan-500/30 transition">
+              <span>اطلب تركيب الماسكات وصيانة الواجهات</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 4: Giant Video Walls & Stage Programming (NovaStar / Receiving Cards) -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="relative h-56 overflow-hidden bg-slate-900 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg', 'صيانة وبرمجة شاشات المسارح والقاعات والمؤتمرات العملاقة')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg"
+                   alt="برمجة وصيانة شاشات المسارح والمؤتمرات"
+                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full bg-purple-500/20 backdrop-blur-md border border-purple-400/40 text-purple-300 text-xs font-bold">
+                برمجة + تشغيل ميداني
+              </span>
+              <div class="absolute bottom-3 right-4 w-11 h-11 rounded-2xl bg-purple-500 text-white flex items-center justify-center text-xl shadow-lg">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-extrabold text-white">
+                صيانة وبرمجة شاشات المسارح والمؤتمرات العملاقة
+              </h3>
+              <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+                برمجة احترافية لكروت الاستقبال والإرسال (<span class="text-cyan-300">Receiving & Sending Cards / NovaStar</span>)، ضبط ملفات التعريف (<code class="text-cyan-300">RCFGX</code>)، ربط الكبائن، ومعايرة الألوان والسطوع لشاشات القاعات والحفلات.
+              </p>
+              <ul class="space-y-1.5 pt-2 text-xs text-slate-300 font-tajawal">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> حل مشاكل تقطع الصورة وفقدان الإشارة</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> إعداد ملفات البرمجة لجميع أنواع المديولات</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> دعم شاشات الـ Rental والتركيب الثابت</li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A8%D8%B1%D9%85%D8%AC%D8%A9%20%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%20%D8%B9%D8%B1%D8%B6%20%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9" target="_blank" rel="noopener noreferrer"
+               class="w-full py-3 rounded-xl bg-slate-800/90 hover:bg-cyan-500 text-cyan-300 hover:text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-cyan-500/30 transition">
+              <span>اطلب برمجة ومعايرة الشاشة</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 5: Cabinets, Power Supplies & Rescuing Bad Repairs -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="relative h-56 overflow-hidden bg-slate-900 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-s5tz8HoJiAYgOY.jpg', 'معمل وطاولة صيانة كبائن وكروت شاشات LED وفحص محولات الطاقة')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-s5tz8HoJiAYgOY.jpg"
+                   alt="صيانة كبائن الشاشات والباورسبلاي"
+                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-md border border-amber-400/40 text-amber-300 text-xs font-bold">
+                إنقاذ الشاشات المتضررة
+              </span>
+              <div class="absolute bottom-3 right-4 w-11 h-11 rounded-2xl bg-amber-500 text-slate-950 flex items-center justify-center text-xl shadow-lg">
+                <i class="fa-solid fa-bolt-lightning"></i>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-extrabold text-white">
+                صيانة الكبائن والباورسبلاي وإنقاذ الشاشات المتضررة
+              </h3>
+              <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+                فحص وإصلاح كبائن الشاشات (<span class="text-cyan-300">Flight Case Rental & Fixed Cabinets</span>)، محولات الطاقة (<span class="text-cyan-300">Power Supplies</span>)، وكابلات الفلات والبيانات، بالإضافة إلى تخصصنا في <strong>إنقاذ الشاشات التي تضررت على يد غير المتخصصين</strong>.
+              </p>
+              <ul class="space-y-1.5 pt-2 text-xs text-slate-300 font-tajawal">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> إعادة تأهيل البوردات المحروقة أو المعطوبة</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> فحص ثبات الجهد الكهربائي وتوزيع الأحمال</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> عقود صيانة دورية وتأمين فني للقاعات والشركات</li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D9%84%D8%AF%D9%8A%20%D9%83%D8%A8%D8%A7%D8%A6%D9%86%20%D8%B4%D8%A7%D8%B4%D8%A9%20%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC%20%D9%81%D8%AD%D8%B5%20%D9%88%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9%20%D8%AA%D8%A3%D9%87%D9%8A%D9%84" target="_blank" rel="noopener noreferrer"
+               class="w-full py-3 rounded-xl bg-slate-800/90 hover:bg-cyan-500 text-cyan-300 hover:text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-cyan-500/30 transition">
+              <span>اطلب فحص وإعادة تأهيل الكبائن</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Service 6: Stage Lighting (Beam - Laser - City Color) & Pro Audio -->
+        <div class="glass-card glass-card-hover rounded-3xl overflow-hidden flex flex-col justify-between">
+          <div>
+            <div class="relative h-56 overflow-hidden bg-slate-900 group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-dOUBIKkjXI1P3T.jpg', 'صناديق نقل وتجهيز شاشات ومعدات الحفلات والمناسبات (Flight Cases) داخل الورشة')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-dOUBIKkjXI1P3T.jpg"
+                   alt="إصلاح أجهزة الإضاءة المسرحية وتجهيزات الحفلات"
+                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full bg-rose-500/20 backdrop-blur-md border border-rose-400/40 text-rose-300 text-xs font-bold">
+                بيم • ليزر • سيتي كلر
+              </span>
+              <div class="absolute bottom-3 right-4 w-11 h-11 rounded-2xl bg-rose-500 text-white flex items-center justify-center text-xl shadow-lg">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-extrabold text-white">
+                صيانة أجهزة الإضاءة المسرحية والصوتيات الاحترافية
+              </h3>
+              <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+                خدمة هندسية متخصصة لإصلاح وصيانة أجهزة الإضاءة المسرحية والاحتفالات: <strong>بيم (<span class="text-cyan-300">Beam</span>) — ليزر (<span class="text-cyan-300">Laser</span>) — سيتي كلر (<span class="text-cyan-300">City Color</span>)</strong>، بالإضافة إلى خبرة معمقة في أجهزة ومكسرات الصوت الألمانية (<span class="text-amber-300">Dynacord</span>).
+              </p>
+              <ul class="space-y-1.5 pt-2 text-xs text-slate-300 font-tajawal">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> إصلاح بوردات التحكم والـ DMX ولمبات الـ Beam</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> صيانة موديولات الليزر وكشافات الـ City Color</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-cyan-400"></i> تجهيز وصيانة أنظمة الحفلات والقاعات المتكاملة</li>
+              </ul>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D8%A5%D8%B6%D8%A7%D8%A1%D8%A9%20%D9%85%D8%B3%D8%B1%D8%AD%D9%8A%D8%A9%20(%D8%A8%D9%8A%D9%85%20/%20%D9%84%D9%8A%D8%B2%D8%B1%20/%20%D8%B3%D9%8A%D8%AA%D9%8A%20%D9%83%D9%84%D8%B1)" target="_blank" rel="noopener noreferrer"
+               class="w-full py-3 rounded-xl bg-slate-800/90 hover:bg-cyan-500 text-cyan-300 hover:text-slate-950 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 border border-cyan-500/30 transition">
+              <span>اطلب صيانة أجهزة الإضاءة والصوتيات</span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. PORTFOLIO SECTION (معرض المشاريع والمنجزات — قبل / أثناء / بعد الصيانة) -->
+  <section id="portfolio" class="py-20 lg:py-28 bg-slate-900/60 border-y border-slate-800/80 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Heading -->
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs sm:text-sm font-bold">
+          <i class="fa-solid fa-camera-rotate"></i>
+          <span>توثيق حقيقي 100% من معمل وميدان عمل المهندس أحمد المحلاوي</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
+          معرض المشاريع المنجزة <span class="text-cyan-400">(قبل / أثناء / بعد)</span>
+        </h2>
+        <p class="text-slate-400 font-tajawal text-base sm:text-lg">
+          شاهد بنفسك مراحل الفحص والإصلاح الدقيق وكيف تعود الشاشات والكبائن المتضررة للعمل بنسبة 100% بفضل الله ثم بالخبرة الهندسية المتخصصة.
+        </p>
+      </div>
+
+      <!-- Interactive Category Filter Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-2.5 mb-12" id="portfolio-filters">
+        <button type="button" data-filter="all" class="portfolio-filter-btn filter-btn-active px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 font-bold text-xs sm:text-sm transition">
+          الكل (جميع المشاريع الموثقة)
+        </button>
+        <button type="button" data-filter="modules" class="portfolio-filter-btn px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:border-cyan-500/40 font-bold text-xs sm:text-sm transition">
+          صيانة المديولات والبكسلات والـ IC
+        </button>
+        <button type="button" data-filter="rescue" class="portfolio-filter-btn px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:border-cyan-500/40 font-bold text-xs sm:text-sm transition">
+          إنقاذ الشاشات المتضررة والكبائن
+        </button>
+        <button type="button" data-filter="stages" class="portfolio-filter-btn px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:border-cyan-500/40 font-bold text-xs sm:text-sm transition">
+          شاشات المسارح والبرمجة
+        </button>
+        <button type="button" data-filter="audio" class="portfolio-filter-btn px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-slate-300 hover:border-cyan-500/40 font-bold text-xs sm:text-sm transition">
+          الصوتيات والإضاءة المسرحية
+        </button>
+      </div>
+
+      <!-- Major Interactive Before / During / After Project Cards (2x2 Grid + Extra Cards) -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8" id="portfolio-grid">
+
+        <!-- Project 1: 4-Module Cabinet Full Overhaul -->
+        <div class="portfolio-item glass-card rounded-3xl overflow-hidden border border-slate-800 flex flex-col justify-between" data-category="rescue modules">
+          <div>
+            <!-- Interactive Image Viewer with Before/During/After Switcher -->
+            <div class="relative h-72 sm:h-80 bg-slate-950 overflow-hidden">
+              <img id="proj1-img"
+                   src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-96CsOIJVTKC6rw.jpg"
+                   alt="إعادة تأهيل كابينة 4 مديولات بالكامل"
+                   class="w-full h-full object-cover transition-all duration-500 cursor-pointer"
+                   onclick="openLightbox(this.src, document.getElementById('proj1-stage-caption').innerText)" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40 pointer-events-none"></div>
+
+              <!-- Location & Ad Tag -->
+              <div class="absolute top-3 right-3 flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full bg-slate-950/85 backdrop-blur-md border border-cyan-500/40 text-cyan-300 text-xs font-bold">
+                  <i class="fa-solid fa-location-dot ml-1"></i> الطائف • كابينة 4 مديولات
+                </span>
+              </div>
+
+              <!-- Current Stage Badge -->
+              <div id="proj1-badge" class="absolute top-3 left-3 px-3 py-1 rounded-full bg-emerald-500/90 text-slate-950 text-xs font-extrabold shadow-lg">
+                بعد الصيانة (100%)
+              </div>
+
+              <!-- Stage Switcher Tabs Overlay -->
+              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+                <button type="button"
+                        onclick="switchProjectStage('proj1', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-hCj5fheg5DUEgJ.jpg', 'قبل الصيانة: بكسلات مكسورة وفراغات سوداء', 'bg-rose-500 text-white')"
+                        class="proj1-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  1. قبل الصيانة (العطل)
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj1', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-0rswmFev5aG6aa.jpg', 'أثناء الصيانة: فك المديول وفحص الباورسبلاي والتوصيلات', 'bg-amber-500 text-slate-950')"
+                        class="proj1-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  2. أثناء الصيانة
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj1', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-96CsOIJVTKC6rw.jpg', 'بعد الصيانة: استعادة التجانس الكامل للكابينة 100%', 'bg-emerald-500 text-slate-950')"
+                        class="proj1-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                  3. بعد الصيانة 100%
+                </button>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <div id="proj1-stage-caption" class="text-xs font-bold text-emerald-400">
+                بعد الصيانة: استعادة التجانس الكامل للكابينة 100%
+              </div>
+              <h3 class="text-xl font-extrabold text-white">
+                مشروع إعادة تأهيل كابينة شاشة عملاقة (4 مديولات) بالكامل
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-tajawal pt-1">
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-rose-400 font-bold block mb-1"><i class="fa-solid fa-triangle-exclamation ml-1"></i> التحدي الفني:</span>
+                  <span class="text-slate-300">نقاط سوداء متعددة وبكسلات مكسورة في المديولات الأربعة مع الحاجة لفحص محول الطاقة الداخلي (Power Supply).</span>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-emerald-400 font-bold block mb-1"><i class="fa-solid fa-circle-check ml-1"></i> الحل الهندسي:</span>
+                  <span class="text-slate-300">تفكيك المديولات، فحص الباورسبلاي والكابلات، زراعة البكسلات المفقودة تحت الاختبار الأبيض، وإرجاع الكابينة لحالة المصنع.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Rescuing Screen Damaged by Non-Specialists -->
+        <div class="portfolio-item glass-card rounded-3xl overflow-hidden border border-slate-800 flex flex-col justify-between" data-category="rescue">
+          <div>
+            <div class="relative h-72 sm:h-80 bg-slate-950 overflow-hidden">
+              <img id="proj2-img"
+                   src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg"
+                   alt="إنقاذ شاشة متضررة من صيانة غير المتخصصين"
+                   class="w-full h-full object-cover transition-all duration-500 cursor-pointer"
+                   onclick="openLightbox(this.src, document.getElementById('proj2-stage-caption').innerText)" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40 pointer-events-none"></div>
+
+              <div class="absolute top-3 right-3 flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full bg-slate-950/85 backdrop-blur-md border border-amber-500/40 text-amber-300 text-xs font-bold">
+                  <i class="fa-solid fa-shield-halved ml-1"></i> عملية إنقاذ هندسي • الطائف
+                </span>
+              </div>
+
+              <div id="proj2-badge" class="absolute top-3 left-3 px-3 py-1 rounded-full bg-emerald-500/90 text-slate-950 text-xs font-extrabold shadow-lg">
+                بعد الإنقاذ (100%)
+              </div>
+
+              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+                <button type="button"
+                        onclick="switchProjectStage('proj2', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg', 'قبل الصيانة: تشوهات وخطوط كارثية بعد عبث غير المتخصصين', 'bg-rose-500 text-white')"
+                        class="proj2-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  1. قبل (تشوه كارثي)
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj2', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-zzqAE7pQ62AV8y.jpg', 'أثناء الصيانة: إعادة تأهيل الكبائن والبوردات في المعمل', 'bg-amber-500 text-slate-950')"
+                        class="proj2-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  2. في المعمل
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj2', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg', 'بعد الصيانة: الكابينة تعمل بنسبة 100% بإضاءة صافية ومتجانسة', 'bg-emerald-500 text-slate-950')"
+                        class="proj2-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                  3. بعد الصيانة 100%
+                </button>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <div id="proj2-stage-caption" class="text-xs font-bold text-emerald-400">
+                بعد الصيانة: الكابينة تعمل بنسبة 100% بإضاءة صافية ومتجانسة
+              </div>
+              <h3 class="text-xl font-extrabold text-white">
+                إنقاذ شاشة LED تعرضت لأعطال مضاعفة على يد غير المتخصصين
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-tajawal pt-1">
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-rose-400 font-bold block mb-1"><i class="fa-solid fa-triangle-exclamation ml-1"></i> التحدي الفني:</span>
+                  <span class="text-slate-300">وصول الشاشة للمعمل بحالة سيئة جداً مع خطوط متقطعة وتشوه في المسارات نتيجة محاولة إصلاح سابقة غير احترافية.</span>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-emerald-400 font-bold block mb-1"><i class="fa-solid fa-circle-check ml-1"></i> الحل الهندسي:</span>
+                  <span class="text-slate-300">إعادة بناء مسارات البوردة وتغيير الآي سيهات المتضررة وضبط الكبائن وتسليم الشاشة تعمل بنسبة 100% بفضل الله.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Green Line Faults, IC & Mask Installation -->
+        <div class="portfolio-item glass-card rounded-3xl overflow-hidden border border-slate-800 flex flex-col justify-between" data-category="modules">
+          <div>
+            <div class="relative h-72 sm:h-80 bg-slate-950 overflow-hidden">
+              <img id="proj3-img"
+                   src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ZCmlY9YwDkPdMN.jpg"
+                   alt="إصلاح أعطال الآي سي والخطوط الخضراء والماسكات"
+                   class="w-full h-full object-cover transition-all duration-500 cursor-pointer"
+                   onclick="openLightbox(this.src, document.getElementById('proj3-stage-caption').innerText)" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40 pointer-events-none"></div>
+
+              <div class="absolute top-3 right-3 flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full bg-slate-950/85 backdrop-blur-md border border-cyan-500/40 text-cyan-300 text-xs font-bold">
+                  <i class="fa-solid fa-microchip ml-1"></i> جدة / الطائف • صيانة مديولات وماسك
+                </span>
+              </div>
+
+              <div id="proj3-badge" class="absolute top-3 left-3 px-3 py-1 rounded-full bg-emerald-500/90 text-slate-950 text-xs font-extrabold shadow-lg">
+                وضع المصنع (100%)
+              </div>
+
+              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+                <button type="button"
+                        onclick="switchProjectStage('proj3', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-b2av5WYz04wbHT.jpg', 'قبل الصيانة: أعطال خطوط خضراء عمودية وبكسلات تالفة', 'bg-rose-500 text-white')"
+                        class="proj3-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  1. قبل (خطوط خضراء)
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj3', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg', 'أثناء الصيانة: لحام البكسلات وتركيب الشبك والماسكات الجديدة', 'bg-amber-500 text-slate-950')"
+                        class="proj3-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  2. تركيب الماسكات
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj3', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ZCmlY9YwDkPdMN.jpg', 'بعد الصيانة: إضاءة كاملة ومتجانسة 100% على الكابينة', 'bg-emerald-500 text-slate-950')"
+                        class="proj3-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                  3. بعد الصيانة 100%
+                </button>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <div id="proj3-stage-caption" class="text-xs font-bold text-emerald-400">
+                بعد الصيانة: إضاءة كاملة ومتجانسة 100% على الكابينة
+              </div>
+              <h3 class="text-xl font-extrabold text-white">
+                معالجة أعطال الخطوط الخضراء العمودية وتركيب الشبك والماسكات
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-tajawal pt-1">
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-rose-400 font-bold block mb-1"><i class="fa-solid fa-triangle-exclamation ml-1"></i> التحدي الفني:</span>
+                  <span class="text-slate-300">ظهور خطوط خضراء عمودية مستمرة وتلف في حواف الماسك الخارجي للمديول.</span>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-emerald-400 font-bold block mb-1"><i class="fa-solid fa-circle-check ml-1"></i> الحل الهندسي:</span>
+                  <span class="text-slate-300">استبدال آي سي الدرايفر المسبب للخطوط، زراعة البكسلات الناقصة، وتركيب ماسكات جديدة مضبوطة 100%.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Giant Event Hall Stage Screen Maintenance & Programming -->
+        <div class="portfolio-item glass-card rounded-3xl overflow-hidden border border-slate-800 flex flex-col justify-between" data-category="stages">
+          <div>
+            <div class="relative h-72 sm:h-80 bg-slate-950 overflow-hidden">
+              <img id="proj4-img"
+                   src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg"
+                   alt="تجهيز وصيانة وبرمجة شاشة مسرح عملاقة في الرياض"
+                   class="w-full h-full object-cover transition-all duration-500 cursor-pointer"
+                   onclick="openLightbox(this.src, document.getElementById('proj4-stage-caption').innerText)" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40 pointer-events-none"></div>
+
+              <div class="absolute top-3 right-3 flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full bg-slate-950/85 backdrop-blur-md border border-purple-500/40 text-purple-300 text-xs font-bold">
+                  <i class="fa-solid fa-tv ml-1"></i> الرياض / المملكة • شاشة مسرح عملاقة
+                </span>
+              </div>
+
+              <div id="proj4-badge" class="absolute top-3 left-3 px-3 py-1 rounded-full bg-emerald-500/90 text-slate-950 text-xs font-extrabold shadow-lg">
+                تشغيل كامل (100%)
+              </div>
+
+              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+                <button type="button"
+                        onclick="switchProjectStage('proj4', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/816x612-1_-wgtXw7Kn7Oc5tW.jpg', 'قبل التشغيل: الشاشة العملاقة مثبتة على الـ Truss داخل القاعة', 'bg-slate-700 text-white')"
+                        class="proj4-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  1. قبل التشغيل
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj4', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-3mJpHIKLzcLeVo.jpg', 'أثناء الصيانة: فحص وإصلاح البكسلات المفقودة على المديولات', 'bg-amber-500 text-slate-950')"
+                        class="proj4-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                  2. صيانة المديولات
+                </button>
+                <button type="button"
+                        onclick="switchProjectStage('proj4', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg', 'بعد الصيانة والبرمجة: الشاشة العملاقة تعمل بكفاءة وألوان متطابقة 100%', 'bg-emerald-500 text-slate-950')"
+                        class="proj4-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                  3. بعد البرمجة 100%
+                </button>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-3">
+              <div id="proj4-stage-caption" class="text-xs font-bold text-emerald-400">
+                بعد الصيانة والبرمجة: الشاشة العملاقة تعمل بكفاءة وألوان متطابقة 100%
+              </div>
+              <h3 class="text-xl font-extrabold text-white">
+                صيانة وبرمجة شاشة عرض مسرحية عملاقة لقاعة مؤتمرات واحتفالات
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-tajawal pt-1">
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-rose-400 font-bold block mb-1"><i class="fa-solid fa-triangle-exclamation ml-1"></i> التحدي الفني:</span>
+                  <span class="text-slate-300">حاجة الشاشة العملاقة لصيانة البكسلات المتناثرة في عدة مديولات مع ضبط البرمجة وتوحيد الإضاءة على المسرح.</span>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-emerald-400 font-bold block mb-1"><i class="fa-solid fa-circle-check ml-1"></i> الحل الهندسي:</span>
+                  <span class="text-slate-300">إصلاح كافة المديولات المتضررة وبرمجة كروت الاستقبال وتشغيل الشاشة بدقة عرض مثالية 100%.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Additional Documented Gallery Strip (More Verified Photos from the 63 Images) -->
+      <div class="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        
+        <div class="portfolio-item group relative rounded-2xl overflow-hidden h-44 border border-slate-800 cursor-pointer" data-category="modules"
+             onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-m2tlAcpHCd0RYI.jpg', 'صيانة ميدانية دقيقة لبوردات LED تحت الميكروسكوب داخل القاعة')">
+          <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-m2tlAcpHCd0RYI.jpg" alt="صيانة بالميكروسكوب" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+          <span class="absolute bottom-2 right-2 left-2 text-[11px] font-bold text-white">صيانة مجهرية ميدانية (مكة)</span>
+        </div>
+
+        <div class="portfolio-item group relative rounded-2xl overflow-hidden h-44 border border-slate-800 cursor-pointer" data-category="modules"
+             onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-IUWtsxidv2N4ON.jpg', 'لقطة مكبرة لتشخيص عطل خط أخضر وتلف حافة المديول قبل الإصلاح')">
+          <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-IUWtsxidv2N4ON.jpg" alt="تشخيص حافة المديول" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+          <span class="absolute bottom-2 right-2 left-2 text-[11px] font-bold text-white">تشخيص دقيق لحواف المديول</span>
+        </div>
+
+        <div class="portfolio-item group relative rounded-2xl overflow-hidden h-44 border border-slate-800 cursor-pointer" data-category="modules"
+             onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Ww9te5hJ5rBX0y.jpg', 'مديول شاشة LED سليم 100% بعد انتهاء اللحام والاختبار')">
+          <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-Ww9te5hJ5rBX0y.jpg" alt="مديول سليم بعد الصيانة" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+          <span class="absolute bottom-2 right-2 left-2 text-[11px] font-bold text-emerald-300">مديول بعد الضبط 100%</span>
+        </div>
+
+        <div class="portfolio-item group relative rounded-2xl overflow-hidden h-44 border border-slate-800 cursor-pointer" data-category="rescue"
+             onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-DRRNey5nBBUYsa.jpg', 'اختبار المديول باللون الأبيض الكامل بعد إصلاح جميع البكسلات')">
+          <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-DRRNey5nBBUYsa.jpg" alt="اختبار اللون الأبيض" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+          <span class="absolute bottom-2 right-2 left-2 text-[11px] font-bold text-white">اختبار التجانس الأبيض 100%</span>
+        </div>
+
+        <div class="portfolio-item group relative rounded-2xl overflow-hidden h-44 border border-slate-800 cursor-pointer" data-category="stages"
+             onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x562-1_-eUXgBiODmgo2ye.jpg', 'زاوية أخرى للشاشة العملاقة أثناء التشغيل والاختبار النهائي في القاعة')">
+          <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x562-1_-eUXgBiODmgo2ye.jpg" alt="تشغيل الشاشة العملاقة" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+          <span class="absolute bottom-2 right-2 left-2 text-[11px] font-bold text-cyan-300">تسليم شاشة قاعة مؤتمرات</span>
+        </div>
+
+        <div class="portfolio-item group relative rounded-2xl overflow-hidden h-44 border border-slate-800 cursor-pointer" data-category="audio"
+             onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-XFcx05PozfoFxA.jpg', 'مكسر ديناكورد ألماني أصلي PowerMate 1600 - 16 خط باور')">
+          <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2026-11-9/1280x720-1_-XFcx05PozfoFxA.jpg" alt="مكسر ديناكورد ألماني" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
+          <span class="absolute bottom-2 right-2 left-2 text-[11px] font-bold text-amber-300">تجهيزات صوتيات Dynacord</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. WHY CHOOSE US SECTION + ENGINEER'S REAL WARNING QUOTE -->
+  <section id="why-us" class="py-20 lg:py-28 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto space-y-4">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs sm:text-sm font-bold">
+          <i class="fa-solid fa-medal"></i>
+          <span>لماذا تختار المهندس أحمد المحلاوي؟</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
+          الفرق بين الصيانة الهندسية المحترفة والمحاولات العشوائية
+        </h2>
+        <p class="text-slate-400 font-tajawal text-base sm:text-lg">
+          شاشات الليد العملاقة استثمار عالي القيمة؛ لذلك نعتمد معايير صارمة تضمن لك حماية استثمارك وعودة الشاشة لحالة المصنع.
+        </p>
+      </div>
+
+      <!-- 4 Key Differentiators Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-slate-800 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-2xl">
+            <i class="fa-solid fa-microscope"></i>
+          </div>
+          <h3 class="text-lg font-extrabold text-white">تشخيص ولحام بالميكروسكوب</h3>
+          <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+            لا نعتمد على التخمين أو التسخين العشوائي للبوردة؛ يتم فحص كل بكسل ومسار وآي سي تحت الميكروسكوب الإلكتروني المزدوج لضمان دقة اللحام وسلامة الـ PCB.
+          </p>
+        </div>
+
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-slate-800 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl">
+            <i class="fa-solid fa-cubes-stacked"></i>
+          </div>
+          <h3 class="text-lg font-extrabold text-white">قطع غيار وماسك أصلية</h3>
+          <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+            نستخدم ليدات وبكسلات وآي سيهات مطابقة تماماً للمواصفات الفنية، مع تركيب شبك وماسكات (<span class="text-cyan-300">Masks & Louvres</span>) مضبوطة 100% بدون أي تشوه.
+          </p>
+        </div>
+
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-slate-800 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl">
+            <i class="fa-solid fa-rotate"></i>
+          </div>
+          <h3 class="text-lg font-extrabold text-white">إرجاع لوضع المصنع 100%</h3>
+          <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+            نلتزم بتسليم المديول والكابينة والشاشة تعمل بكفاءة 100% بعد اختبارها على الإضاءة الكاملة واللون الأبيض والألوان الأساسية للتأكد من انعدام أي أخطاء.
+          </p>
+        </div>
+
+        <div class="glass-card glass-card-hover rounded-3xl p-6 border border-slate-800 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-2xl">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3 class="text-lg font-extrabold text-white">التزام بالمواعيد وتغطية شاملة</h3>
+          <p class="text-sm text-slate-300 font-tajawal leading-relaxed">
+            نقدر أهمية الوقت لأصحاب القاعات والفعاليات وشركات الإعلان، ونوفر خدمة سريعة وموثوقة في جدة ومكة والطائف والرياض وجميع مدن المملكة.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Critical Warning Box from Eng. Ahmed El-Mahalawy (Extracted from Post 11127091432) -->
+      <div class="rounded-3xl bg-gradient-to-l from-rose-950/50 via-slate-900 to-slate-900 border-2 border-amber-500/40 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Warning Quote Text (7 cols) -->
+          <div class="lg:col-span-7 space-y-5">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-extrabold">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <span>رسالة تحذيرية هامة من المهندس أحمد المحلاوي لأصحاب الشاشات</span>
+            </div>
+
+            <blockquote class="text-lg sm:text-2xl font-extrabold text-white leading-relaxed border-r-4 border-amber-400 pr-4">
+              «هكذا تصل إلينا الشاشات بعد أن يتم صيانتها على يد غير المتخصصين في المجال، ويتم تسليم الشاشة تعمل بنسبة 100٪ بفضل ومنة من الله تعالى.. قبل أن تسلم شاشتك تأكد من المهندس الذي سيقوم بالإصلاح والصيانة، فالسوق مليء بمن يدعي العلم والنتائج دائماً تكون كارثية.»
+            </blockquote>
+
+            <div class="flex flex-wrap items-center justify-between gap-4 pt-2">
+              <div class="flex items-center gap-3">
+                <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2023-11-25/481x1040-1_-czvtQmhHYUkRz5.jpg"
+                     alt="م. أحمد المحلاوي"
+                     class="w-12 h-12 rounded-full object-cover object-top border-2 border-amber-400" />
+                <div>
+                  <div class="font-extrabold text-white text-sm sm:text-base">م. أحمد المحلاوي</div>
+                  <div class="text-xs text-amber-300 font-tajawal">خبير صيانة الشاشات العملاقة والإلكترونيات</div>
+                </div>
+              </div>
+
+              <a href="tel:+966545303140" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs sm:text-sm transition">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>استشر المهندس مباشرة: <span dir="ltr">0545303140</span></span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Visual Proof: Before (Non-Specialist Damage) vs After (100% Rescued) (5 cols) -->
+          <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="rounded-2xl overflow-hidden border border-rose-500/50 bg-slate-950 relative group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg', 'حالة الشاشة عند وصولها للمعمل بعد عبث غير المتخصصين')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg"
+                   alt="قبل: بعد عبث غير المتخصصين"
+                   class="w-full h-44 object-cover group-hover:scale-105 transition" />
+              <div class="p-3 bg-rose-950/60 border-t border-rose-500/30">
+                <span class="text-[11px] font-extrabold text-rose-300 block">1. عند الاستلام (قبل)</span>
+                <p class="text-xs text-slate-200 font-tajawal">أعطال وخطوط كارثية بعد عبث غير المتخصصين</p>
+              </div>
+            </div>
+
+            <div class="rounded-2xl overflow-hidden border border-emerald-500/50 bg-slate-950 relative group cursor-pointer"
+                 onclick="openLightbox('https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg', 'النتيجة النهائية بعد الإنقاذ والصيانة في معمل م. أحمد المحلاوي 100%')">
+              <img src="https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg"
+                   alt="بعد: تسليم الكابينة تعمل 100%"
+                   class="w-full h-44 object-cover group-hover:scale-105 transition" />
+              <div class="p-3 bg-emerald-950/60 border-t border-emerald-500/30">
+                <span class="text-[11px] font-extrabold text-emerald-300 block">2. عند التسليم (بعد)</span>
+                <p class="text-xs text-slate-200 font-tajawal">عودة الشاشة للعمل بنسبة 100% بفضل الله</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. TESTIMONIALS & FAQ SECTION (آراء العملاء والأسئلة الشائعة) -->
+  <section id="testimonials" class="py-20 lg:py-28 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      
+      <!-- Testimonials Part -->
+      <div>
+        <div class="text-center max-w-3xl mx-auto mb-14 space-y-4">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs sm:text-sm font-bold">
+            <i class="fa-solid fa-star"></i>
+            <span>ثقة موثقة من عملاء حراج في مختلف مدن المملكة</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
+            آراء وشهادات العملاء وتفاعلاتهم الحقيقية
+          </h2>
+          <p class="text-slate-400 font-tajawal text-base sm:text-lg">
+            نفخر بثقة عملائنا من أصحاب القاعات وشركات الدعاية والمطابع ومنظمي الفعاليات في جدة والطائف ومكة والرياض والمدينة المنورة.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          
+          <!-- Featured Testimonial: أبونووح -->
+          <div class="lg:col-span-1 glass-card rounded-3xl p-7 border-2 border-emerald-500/40 flex flex-col justify-between relative overflow-hidden">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-1 text-amber-400 text-sm">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-300 text-[11px] font-bold border border-emerald-500/30">
+                  شهادة عميل موثقة
+                </span>
+              </div>
+
+              <blockquote class="text-lg sm:text-xl font-bold text-white leading-relaxed">
+                «ما شاء الله تبارك الرحمن صيانة أكثر من رائعة ربنا يصلح ما بين يديك دائماً»
+              </blockquote>
+            </div>
+
+            <div class="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 font-black">
+                  أ
+                </div>
+                <div>
+                  <div class="font-extrabold text-white text-sm">العميل: أبونووح</div>
+                  <div class="text-xs text-slate-400 font-tajawal">جدة — صيانة شاشة عرض عملاقة</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real Customer Inquiry 2: سلمان للخدمات (Broken Pixels & Madinah Coverage) -->
+          <div class="glass-card rounded-3xl p-7 border border-slate-800 flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-cyan-400"><i class="fa-solid fa-comments ml-1"></i> استفسار ورد مباشر</span>
+                <span class="text-xs text-slate-400">الطائف / المدينة المنورة</span>
+              </div>
+
+              <div class="space-y-3 text-sm">
+                <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-xs font-bold text-slate-400 block mb-1">العميل (سلمان للخدمات):</span>
+                  <p class="text-slate-200 font-semibold">«انتو تصلحو الشاشات الي فيها كسر خفيف؟ عندكم في المدينة؟»</p>
+                </div>
+                <div class="p-3.5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 mr-4">
+                  <span class="text-xs font-bold text-cyan-300 block mb-1">رد م. أحمد المحلاوي:</span>
+                  <p class="text-white font-bold">«سلمان للخدمات — للتواصل <span dir="ltr">0545303140</span>» (إصلاح البكسلات المكسورة وإرجاع المديول لوضع المصنع 100%)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 mt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+              <span>خدمة العملاء في الطائف والمدينة المنورة والمملكة</span>
+            </div>
+          </div>
+
+          <!-- Real Customer Inquiry 3: hondahc & مطابع الوان الرياض (Programming & B2B Clients) -->
+          <div class="glass-card rounded-3xl p-7 border border-slate-800 flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-purple-400"><i class="fa-solid fa-building ml-1"></i> طلبات البرمجة والشركات</span>
+                <span class="text-xs text-slate-400">جدة والرياض</span>
+              </div>
+
+              <div class="space-y-3 text-sm">
+                <div class="p-3.5 rounded-2xl bg-slate-900/90 border border-slate-800">
+                  <span class="text-xs font-bold text-slate-400 block mb-1">العميل (hondahc):</span>
+                  <p class="text-slate-200 font-semibold">«في برمجة للشاشة؟»</p>
+                </div>
+                <div class="p-3.5 rounded-2xl bg-cyan-950/40 border border-cyan-500/30 mr-4">
+                  <span class="text-xs font-bold text-cyan-300 block mb-1">رد م. أحمد المحلاوي:</span>
+                  <p class="text-white font-bold">«الرجاء التواصل واتس متاح برمجه»</p>
+                </div>
+                <div class="text-xs text-slate-400 font-tajawal pt-1">
+                  + تفاعل مباشر وطلبات صيانة من: <strong class="text-slate-200">مطابع الوان الرياض</strong>، <strong class="text-slate-200">mostafa zaki 75111</strong>، <strong class="text-slate-200">hassan3530</strong>، <strong class="text-slate-200">b..500</strong>.
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 mt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+              <span>تلبية سريعة لطلبات الشركات والمؤسسات</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Interactive FAQ Accordion -->
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-10 space-y-2">
+          <h3 class="text-2xl sm:text-3xl font-black text-white">الأسئلة الشائعة (FAQ)</h3>
+          <p class="text-sm sm:text-base text-slate-400 font-tajawal">إجابات واضحة ومباشرة مستخلصة من ردود المهندس أحمد المحلاوي على العملاء</p>
+        </div>
+
+        <div class="space-y-3.5" id="faq-accordion">
+          
+          <!-- FAQ 1 -->
+          <div class="glass-card rounded-2xl border border-slate-800 overflow-hidden">
+            <button type="button" onclick="toggleFaq(0)" class="w-full px-6 py-4 text-right flex items-center justify-between gap-4 font-extrabold text-white text-sm sm:text-base hover:text-cyan-300 transition">
+              <span>هل تتوفر خدمة برمجة شاشات الـ LED العملاقة بالإضافة إلى الصيانة؟</span>
+              <i id="faq-icon-0" class="fa-solid fa-chevron-down text-cyan-400 transition-transform duration-300 rotate-180"></i>
+            </button>
+            <div id="faq-content-0" class="px-6 pb-5 text-sm text-slate-300 font-tajawal leading-relaxed border-t border-slate-800/80 pt-3">
+              نعم، متاح برمجة شاشات العرض العملاقة بالكامل (ضبط كروت الاستقبال والإرسال، إعداد ملفات الـ RCFGX، ومعايرة الألوان والإضاءة) إلى جانب الصيانة الهندسية الشاملة للمديولات والكبائن. يمكنك التواصل مباشرة عبر الواتساب على الرقم <a href="https://wa.me/966545303140" class="text-cyan-400 font-bold underline" dir="ltr">0545303140</a>.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="glass-card rounded-2xl border border-slate-800 overflow-hidden">
+            <button type="button" onclick="toggleFaq(1)" class="w-full px-6 py-4 text-right flex items-center justify-between gap-4 font-extrabold text-white text-sm sm:text-base hover:text-cyan-300 transition">
+              <span>هل تصلحون المديولات التي بها بكسلات مكسورة أو خطوط ومربعات لونية؟</span>
+              <i id="faq-icon-1" class="fa-solid fa-chevron-down text-cyan-400 transition-transform duration-300"></i>
+            </button>
+            <div id="faq-content-1" class="hidden px-6 pb-5 text-sm text-slate-300 font-tajawal leading-relaxed border-t border-slate-800/80 pt-3">
+              نعم بكل تأكيد؛ هذا هو تخصصنا الدقيق. نقوم بإصلاح البكسلات المكسورة واستبدالها تحت الميكروسكوب الإلكتروني، وإصلاح أعطال الآي سي (Driver ICs) المسببة للخطوط العمودية أو الأفقية والمربعات اللونية، مع تركيب الشبك والماسكات وإرجاع المديول لوضع المصنع بنسبة 100% لجميع مقاسات البكسل من P1 إلى P5.
+            </div>
+          </div>
+
+          <!-- FAQ 3 (Important Exclusion from Haraj comments) -->
+          <div class="glass-card rounded-2xl border border-slate-800 overflow-hidden">
+            <button type="button" onclick="toggleFaq(2)" class="w-full px-6 py-4 text-right flex items-center justify-between gap-4 font-extrabold text-white text-sm sm:text-base hover:text-cyan-300 transition">
+              <span>هل تقومون بصيانة شاشات التلفزيون المنزلية العادية (LCD/LED TV)؟</span>
+              <i id="faq-icon-2" class="fa-solid fa-chevron-down text-cyan-400 transition-transform duration-300"></i>
+            </button>
+            <div id="faq-content-2" class="hidden px-6 pb-5 text-sm text-slate-300 font-tajawal leading-relaxed border-t border-slate-800/80 pt-3">
+              لا؛ تخصصنا الدقيق والحصري هو <strong class="text-cyan-300">شاشات عرض الليد إسكرين العملاقة (Giant LED Screens / Video Walls)</strong> المخصصة للدعاية والإعلان والحفلات والمؤتمرات والمسارح والقاعات، بالإضافة إلى أجهزة الإضاءة المسرحية (بيم - ليزر - سيتي كلر) ومكسرات الصوت الاحترافية، ولا نقوم بصيانة التلفزيونات المنزلية.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="glass-card rounded-2xl border border-slate-800 overflow-hidden">
+            <button type="button" onclick="toggleFaq(3)" class="w-full px-6 py-4 text-right flex items-center justify-between gap-4 font-extrabold text-white text-sm sm:text-base hover:text-cyan-300 transition">
+              <span>ما هي المدن التي يغطيها المهندس أحمد المحلاوي في المملكة؟</span>
+              <i id="faq-icon-3" class="fa-solid fa-chevron-down text-cyan-400 transition-transform duration-300"></i>
+            </button>
+            <div id="faq-content-3" class="hidden px-6 pb-5 text-sm text-slate-300 font-tajawal leading-relaxed border-t border-slate-800/80 pt-3">
+              المهندس أحمد المحلاوي متواجد بالمملكة ويغطي بشكل رئيسي <strong>الطائف، مكة المكرمة، جدة، والرياض</strong>، كما يستقبل طلبات الصيانة والمشاريع من <strong>المدينة المنورة</strong> وكافة مناطق المملكة عبر التنسيق المباشر على الهاتف أو الواتساب <span dir="ltr" class="text-white font-bold">0545303140</span>.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. CONTACT & INTERACTIVE LEAD BOOKING FORM SECTION -->
+  <section id="contact" class="py-20 lg:py-28 bg-gradient-to-b from-slate-900/90 to-slate-950 border-t border-slate-800 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        
+        <!-- Right Column: Direct Contact Information & Coverage (5 cols) -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs sm:text-sm font-bold">
+            <i class="fa-solid fa-headset"></i>
+            <span>تواصل مباشر مع المهندس أحمد المحلاوي</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-black text-white leading-tight">
+            هل لديك شاشة عملاقة تحتاج إلى صيانة أو برمجة؟ <span class="text-cyan-400">تواصل الآن</span>
+          </h2>
+
+          <p class="text-slate-300 font-tajawal text-base leading-relaxed">
+            أرسل صورة أو فيديو للعطل عبر الواتساب أو اتصل مباشرة بالمهندس أحمد المحلاوي للحصول على تشخيص فني دقيق وخطة إصلاح تعيد شاشتك لوضع المصنع بنسبة 100%.
+          </p>
+
+          <!-- Contact Cards -->
+          <div class="space-y-4 pt-2">
+            
+            <!-- Phone Call Card -->
+            <a href="tel:+966545303140" class="glass-card glass-card-hover p-5 rounded-2xl flex items-center gap-4 border border-cyan-500/30 block">
+              <div class="w-13 h-13 w-12 h-12 rounded-2xl bg-cyan-500 text-slate-950 flex items-center justify-center text-xl shrink-0 shadow-glow-cyan">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div>
+                <span class="text-xs text-cyan-300 font-bold block">رقم الجوال الرسمي المباشر</span>
+                <span class="text-xl sm:text-2xl font-black text-white tracking-wider" dir="ltr">0545303140</span>
+                <span class="text-xs text-slate-400 block font-tajawal">اضغط للاتصال المباشر (<span dir="ltr">+966 54 530 3140</span>)</span>
+              </div>
+            </a>
+
+            <!-- WhatsApp Card -->
+            <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A8%D8%A7%D8%B4%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A7%D9%88%D9%8A%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%20LED%20%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9"
+               target="_blank" rel="noopener noreferrer"
+               class="glass-card glass-card-hover p-5 rounded-2xl flex items-center gap-4 border border-emerald-500/30 block">
+              <div class="w-12 h-12 rounded-2xl bg-emerald-500 text-slate-950 flex items-center justify-center text-2xl shrink-0 shadow-glow-emerald">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <span class="text-xs text-emerald-300 font-bold block">المراسلة الفورية عبر واتساب</span>
+                <span class="text-lg sm:text-xl font-extrabold text-white">أرسل صور العطل أو استفسارك</span>
+                <span class="text-xs text-slate-400 block font-tajawal">متاح لاستقبال طلبات الصيانة والبرمجة والمعدات</span>
+              </div>
+            </a>
+
+            <!-- Haraj Verified Account Card -->
+            <a href="https://haraj.com.sa/users/ahmed%20el%20mahalawy" target="_blank" rel="noopener noreferrer"
+               class="glass-card glass-card-hover p-5 rounded-2xl flex items-center gap-4 border border-slate-800 block">
+              <div class="w-12 h-12 rounded-2xl bg-blue-500/20 border border-blue-500/40 text-blue-400 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <div>
+                <span class="text-xs text-blue-300 font-bold block">الحساب الرسمي الموثق في حراج</span>
+                <span class="text-base sm:text-lg font-extrabold text-white" dir="ltr">@Ahmed_El_Mahalawy</span>
+                <span class="text-xs text-slate-400 block font-tajawal">موثق عبر النفاذ الوطني الموحد • عضوية رقم 19950895</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Left Column: Interactive Maintenance Booking Form (7 cols) -->
+        <div class="lg:col-span-7">
+          <div class="glass-card rounded-3xl p-6 sm:p-10 border border-cyan-500/30 shadow-2xl relative">
+            <h3 class="text-2xl font-black text-white mb-2">نموذج حجز صيانة أو طلب فحص وبرمجة</h3>
+            <p class="text-xs sm:text-sm text-slate-400 font-tajawal mb-6">
+              أدخل بياناتك وتفاصيل الشاشة، وسيتم تجهيز طلبك وإرساله فوراً للمهندس أحمد المحلاوي.
+            </p>
+
+            <!-- Booking Form -->
+            <form id="maintenance-form" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="client-name" class="block text-xs font-bold text-slate-300 mb-1.5">الاسم الكريم / اسم الجهة أو القاعة *</label>
+                  <input type="text" id="client-name" required placeholder="مثال: شركة أضواء / قاعة المؤتمرات"
+                         class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 focus:border-cyan-400 focus:outline-none text-white text-sm" />
+                </div>
+                <div>
+                  <label for="client-phone" class="block text-xs font-bold text-slate-300 mb-1.5">رقم الجوال للتواصل *</label>
+                  <input type="tel" id="client-phone" required placeholder="05XXXXXXXX" dir="ltr"
+                         class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 focus:border-cyan-400 focus:outline-none text-white text-sm text-right" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="client-city" class="block text-xs font-bold text-slate-300 mb-1.5">المدينة / الموقع *</label>
+                  <select id="client-city" required
+                          class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 focus:border-cyan-400 focus:outline-none text-white text-sm">
+                    <option value="جدة">جدة</option>
+                    <option value="الطائف">الطائف</option>
+                    <option value="مكة المكرمة">مكة المكرمة</option>
+                    <option value="الرياض">الرياض</option>
+                    <option value="المدينة المنورة">المدينة المنورة</option>
+                    <option value="مدينة أخرى في المملكة">مدينة أخرى في المملكة</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="service-type" class="block text-xs font-bold text-slate-300 mb-1.5">نوع الخدمة أو مقاس البكسل *</label>
+                  <select id="service-type" required
+                          class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 focus:border-cyan-400 focus:outline-none text-white text-sm">
+                    <option value="صيانة بكسلات مكسورة ومديولات LED">صيانة بكسلات مكسورة ومديولات LED</option>
+                    <option value="إصلاح أعطال الآي سي (IC) والخطوط والمربعات">إصلاح أعطال الآي سي (IC) والخطوط والمربعات</option>
+                    <option value="تركيب شبك وماسكات (Masks & Louvres)">تركيب شبك وماسكات (Masks & Louvres)</option>
+                    <option value="برمجة ومعايرة شاشة عملاقة">برمجة ومعايرة شاشة عملاقة</option>
+                    <option value="إنقاذ شاشة متضررة / صيانة كبائن وباورسبلاي">إنقاذ شاشة متضررة / صيانة كبائن وباورسبلاي</option>
+                    <option value="صيانة أجهزة إضاءة مسرحية (بيم / ليزر / سيتي كلر)">صيانة أجهزة إضاءة مسرحية (بيم / ليزر / سيتي كلر)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="pixel-pitch" class="block text-xs font-bold text-slate-300 mb-1.5">مقاس البكسل (إن وجد)</label>
+                <input type="text" id="pixel-pitch" placeholder="مثال: P2.5 أو P3.91 أو P4 (اختياري)"
+                       class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 focus:border-cyan-400 focus:outline-none text-white text-sm" />
+              </div>
+
+              <div>
+                <label for="fault-details" class="block text-xs font-bold text-slate-300 mb-1.5">وصف العطل أو المطلوب بالتفصيل *</label>
+                <textarea id="fault-details" rows="3" required placeholder="اكتب تفاصيل العطل (مثال: عدد المديولات، وجود خطوط أو بكسلات مفقودة، أو طلب برمجة)..."
+                          class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 focus:border-cyan-400 focus:outline-none text-white text-sm"></textarea>
+              </div>
+
+              <button type="submit"
+                      class="w-full py-4 rounded-2xl bg-gradient-to-l from-cyan-500 via-sky-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-black text-base shadow-glow-cyan transition flex items-center justify-center gap-3">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>إرسال طلب الصيانة والتواصل مع المهندس</span>
+              </button>
+            </form>
+
+            <!-- Interactive Success State Box (Hidden by default) -->
+            <div id="form-success-state" class="hidden mt-6 p-6 rounded-2xl bg-emerald-950/70 border-2 border-emerald-500/50 text-center space-y-4">
+              <div class="w-14 h-14 rounded-full bg-emerald-500 text-slate-950 flex items-center justify-center text-2xl mx-auto shadow-glow-emerald">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <h4 class="text-xl font-black text-white">تم تجهيز طلب الصيانة بنجاح!</h4>
+              <p id="form-summary-text" class="text-sm text-slate-200 font-tajawal leading-relaxed"></p>
+              <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+                <a id="whatsapp-direct-submit-link" href="https://wa.me/966545303140" target="_blank" rel="noopener noreferrer"
+                   class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm flex items-center justify-center gap-2 shadow-lg transition">
+                  <i class="fa-brands fa-whatsapp text-lg"></i>
+                  <span>إرسال التفاصيل الآن عبر واتساب المهندس</span>
+                </a>
+                <a href="tel:+966545303140"
+                   class="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm flex items-center justify-center gap-2 border border-slate-700">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>اتصال هاتفي: <span dir="ltr">0545303140</span></span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 border-t border-slate-800/90 pt-14 pb-10 text-sm text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800/80">
+        
+        <!-- Col 1: Brand -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-white">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div>
+              <div class="text-lg font-black text-white">المهندس أحمد المحلاوي</div>
+              <div class="text-xs text-cyan-400">خبير صيانة الشاشات العملاقة والإلكترونيات</div>
+            </div>
+          </div>
+          <p class="text-xs font-tajawal leading-relaxed text-slate-400">
+            متخصصون في صيانة وبرمجة شاشات عرض الليد إسكرين العملاقة (<span dir="ltr">LED Screens P1 - P5</span>)، إصلاح البكسلات المكسورة بالميكروسكوب، تركيب الشبك والماسكات، وإصلاح إضاءة المسارح.
+          </p>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold">
+            <i class="fa-solid fa-user-shield"></i> عضو موثق عبر النفاذ الوطني
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="space-y-3">
+          <h4 class="text-white font-extrabold text-base">روابط سريعة</h4>
+          <ul class="space-y-2 text-xs sm:text-sm font-tajawal">
+            <li><a href="#services" class="hover:text-cyan-400 transition">خدمات الصيانة والحلول الهندسية</a></li>
+            <li><a href="#about" class="hover:text-cyan-400 transition">عن المهندس ومعمل الميكروسكوب</a></li>
+            <li><a href="#portfolio" class="hover:text-cyan-400 transition">معرض المشاريع (قبل / أثناء / بعد)</a></li>
+            <li><a href="#why-us" class="hover:text-cyan-400 transition">لماذا تختار المهندس أحمد المحلاوي؟</a></li>
+            <li><a href="#testimonials" class="hover:text-cyan-400 transition">آراء العملاء والأسئلة الشائعة</a></li>
+            <li><a href="#contact" class="hover:text-cyan-400 transition">احجز خدمة الصيانة الآن</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Supported Pixel Pitches & Scope -->
+        <div class="space-y-3">
+          <h4 class="text-white font-extrabold text-base">التخصص والنطاق الجغرافي</h4>
+          <p class="text-xs font-tajawal leading-relaxed">
+            صيانة جميع مقاسات البكسل: <span dir="ltr" class="text-cyan-300 font-bold">P1, P1.2, P1.5, P1.8, P2, P2.5, P2.6, P3, P3.91, P4, P5</span>.
+          </p>
+          <p class="text-xs font-tajawal leading-relaxed">
+            <strong class="text-slate-200">المدن المغطاة:</strong> جدة (السامر) • مكة المكرمة (الشرائع) • الطائف (حوايا) • الرياض (الملك عبدالعزيز) • المدينة المنورة وكافة أنحاء المملكة.
+          </p>
+        </div>
+
+        <!-- Col 4: Direct Contact -->
+        <div class="space-y-3">
+          <h4 class="text-white font-extrabold text-base">بيانات الاتصال المباشر</h4>
+          <div class="space-y-2 text-xs sm:text-sm">
+            <p class="flex items-center gap-2">
+              <i class="fa-solid fa-phone text-cyan-400"></i>
+              <a href="tel:+966545303140" class="text-white font-bold hover:text-cyan-400" dir="ltr">0545303140</a>
+            </p>
+            <p class="flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+              <a href="https://wa.me/966545303140" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400" dir="ltr">+966 54 530 3140</a>
+            </p>
+            <p class="flex items-center gap-2">
+              <i class="fa-solid fa-store text-blue-400"></i>
+              <a href="https://haraj.com.sa/users/ahmed%20el%20mahalawy" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400">حساب حراج: @Ahmed_El_Mahalawy</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>© جميع الحقوق محفوظة — المهندس أحمد المحلاوي لصيانة الشاشات العملاقة والإلكترونيات المتقدمة.</p>
+        <p>تم التصميم والتطوير بمعايير هندسية عالية التحويل • للتواصل المباشر: <a href="tel:+966545303140" class="text-cyan-400 font-bold" dir="ltr">0545303140</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON & BACK TO TOP -->
+  <div class="fixed bottom-5 left-5 z-40 flex flex-col items-center gap-3">
+    <a href="https://wa.me/966545303140?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%85.%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A7%D9%88%D9%8A%D8%8C%20%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D8%A8%D8%AE%D8%B5%D9%88%D8%B5%20%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%20LED%20%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9"
+       target="_blank" rel="noopener noreferrer"
+       class="pulse-ring relative w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 flex items-center justify-center text-3xl shadow-2xl transition transform hover:scale-110"
+       aria-label="تواصل عبر واتساب">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <button id="back-to-top" type="button" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+          class="hidden fixed bottom-5 right-5 z-40 w-11 h-11 rounded-xl bg-slate-900/90 hover:bg-cyan-500 text-cyan-400 hover:text-slate-950 border border-cyan-500/40 shadow-lg items-center justify-center transition"
+          aria-label="العودة للأعلى">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- LIGHTBOX MODAL FOR HIGH-RES IMAGE INSPECTION -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-slate-950/95 backdrop-blur-xl flex items-center justify-center p-4">
+    <div class="relative max-w-4xl w-full bg-slate-900 border border-slate-700 rounded-3xl overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between px-5 py-3.5 border-b border-slate-800">
+        <span id="lightbox-caption" class="text-xs sm:text-sm font-bold text-cyan-300">معاينة الصورة عالية الدقة</span>
+        <button type="button" onclick="closeLightbox()" class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-rose-500 text-slate-300 hover:text-white flex items-center justify-center transition">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+      <div class="p-3 sm:p-6 flex items-center justify-center bg-slate-950 max-h-[78vh] overflow-auto">
+        <img id="lightbox-img" src="" alt="معاينة مكبرة" class="max-h-[70vh] w-auto rounded-xl object-contain mx-auto" />
+      </div>
+    </div>
+  </div>
+
+  <!-- VANILLA JAVASCRIPT INTERACTIVITY -->
+  <script>
+    // 1. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenuIcon = document.getElementById('mobile-menu-icon');
+
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        if (isHidden) {
+          mobileMenu.classList.remove('hidden');
+          mobileMenuIcon.classList.remove('fa-bars');
+          mobileMenuIcon.classList.add('fa-xmark');
+        } else {
+          mobileMenu.classList.add('hidden');
+          mobileMenuIcon.classList.remove('fa-xmark');
+          mobileMenuIcon.classList.add('fa-bars');
+        }
+      });
+
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          mobileMenuIcon.classList.remove('fa-xmark');
+          mobileMenuIcon.classList.add('fa-bars');
+        });
+      });
+    }
+
+    // 2. Interactive Before / During / After Switcher on Portfolio Cards
+    function switchProjectStage(projPrefix, stageKey, imgUrl, captionText, badgeClasses) {
+      const imgEl = document.getElementById(projPrefix + '-img');
+      const captionEl = document.getElementById(projPrefix + '-stage-caption');
+      const badgeEl = document.getElementById(projPrefix + '-badge');
+      const tabs = document.querySelectorAll('.' + projPrefix + '-tab');
+
+      if (imgEl) {
+        imgEl.style.opacity = '0.35';
+        setTimeout(() => {
+          imgEl.src = imgUrl;
+          imgEl.style.opacity = '1';
+        }, 120);
+      }
+
+      if (captionEl) {
+        captionEl.innerText = captionText;
+      }
+
+      if (badgeEl) {
+        badgeEl.className = 'absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-extrabold shadow-lg ' + badgeClasses;
+        if (stageKey === 'before') badgeEl.innerText = 'قبل الصيانة (العطل)';
+        if (stageKey === 'during') badgeEl.innerText = 'أثناء الصيانة بالمعمل';
+        if (stageKey === 'after') badgeEl.innerText = 'بعد الصيانة (100%)';
+      }
+
+      tabs.forEach((btn, idx) => {
+        btn.classList.remove('stage-tab-active');
+        if (
+          (stageKey === 'before' && idx === 0) ||
+          (stageKey === 'during' && idx === 1) ||
+          (stageKey === 'after' && idx === 2)
+        ) {
+          btn.classList.add('stage-tab-active');
+        }
+      });
+    }
+
+    // 3. Portfolio Category Filter
+    const filterButtons = document.querySelectorAll('.portfolio-filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filterValue = btn.getAttribute('data-filter');
+
+        filterButtons.forEach(b => b.classList.remove('filter-btn-active'));
+        btn.classList.add('filter-btn-active');
+
+        portfolioItems.forEach(item => {
+          const categories = item.getAttribute('data-category') || '';
+          if (filterValue === 'all' || categories.includes(filterValue)) {
+            item.classList.remove('hidden');
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // 4. Dynacord Mixer Gallery Switcher
+    function setDynacordImage(url, caption, thumbBtn) {
+      const mainImg = document.getElementById('dynacord-main-img');
+      const capEl = document.getElementById('dynacord-img-caption');
+      if (mainImg) mainImg.src = url;
+      if (capEl) capEl.innerText = caption;
+
+      document.querySelectorAll('.dynacord-thumb').forEach(btn => {
+        btn.classList.remove('border-amber-400', 'opacity-100');
+        btn.classList.add('border-slate-800', 'opacity-70');
+      });
+      if (thumbBtn) {
+        thumbBtn.classList.remove('border-slate-800', 'opacity-70');
+        thumbBtn.classList.add('border-amber-400', 'opacity-100');
+      }
+    }
+
+    // 5. FAQ Accordion
+    function toggleFaq(index) {
+      const content = document.getElementById('faq-content-' + index);
+      const icon = document.getElementById('faq-icon-' + index);
+      if (!content || !icon) return;
+
+      const isHidden = content.classList.contains('hidden');
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        content.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+
+    // 6. Select Pixel Pitch Helper
+    function selectPitchInForm(pitch) {
+      const pitchInput = document.getElementById('pixel-pitch');
+      if (pitchInput) {
+        pitchInput.value = pitch;
+        pitchInput.focus();
+      }
+    }
+
+    // 7. Interactive Maintenance Booking Form Submission
+    const maintenanceForm = document.getElementById('maintenance-form');
+    const formSuccessState = document.getElementById('form-success-state');
+    const formSummaryText = document.getElementById('form-summary-text');
+    const whatsappSubmitLink = document.getElementById('whatsapp-direct-submit-link');
+
+    if (maintenanceForm) {
+      maintenanceForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('client-name').value.trim();
+        const phone = document.getElementById('client-phone').value.trim();
+        const city = document.getElementById('client-city').value;
+        const service = document.getElementById('service-type').value;
+        const pitch = document.getElementById('pixel-pitch').value.trim() || 'غير محدد';
+        const details = document.getElementById('fault-details').value.trim();
+
+        const waMessage =
+          `السلام عليكم باشمهندس أحمد المحلاوي،\n` +
+          `طلب خدمة عبر الموقع الرسمي:\n` +
+          `• الاسم/الجهة: ${name}\n` +
+          `• رقم الجوال: ${phone}\n` +
+          `• المدينة: ${city}\n` +
+          `• الخدمة المطلوبة: ${service}\n` +
+          `• مقاس البكسل: ${pitch}\n` +
+          `• التفاصيل: ${details}`;
+
+        const encodedWa = encodeURIComponent(waMessage);
+        const waUrl = `https://wa.me/966545303140?text=${encodedWa}`;
+
+        if (whatsappSubmitLink) {
+          whatsappSubmitLink.href = waUrl;
+        }
+        if (formSummaryText) {
+          formSummaryText.innerText = `شكراً لك (${name}) من (${city}). تم تجهيز تفاصيل طلبك (${service} — مقاس ${pitch}). اضغط على الزر أدناه لإرسالها مباشرة إلى واتساب المهندس أحمد المحلاوي (0545303140).`;
+        }
+        if (formSuccessState) {
+          formSuccessState.classList.remove('hidden');
+          formSuccessState.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      });
+    }
+
+    // 8. Lightbox Modal Functions
+    function openLightbox(imgSrc, captionText) {
+      const modal = document.getElementById('lightbox-modal');
+      const modalImg = document.getElementById('lightbox-img');
+      const modalCap = document.getElementById('lightbox-caption');
+      if (modal && modalImg) {
+        modalImg.src = imgSrc;
+        if (modalCap) modalCap.innerText = captionText || 'معاينة الصورة عالية الدقة';
+        modal.classList.remove('hidden');
+      }
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightbox-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    document.getElementById('lightbox-modal')?.addEventListener('click', (e) => {
+      if (e.target.id === 'lightbox-modal') closeLightbox();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    // 9. Back to Top Button Visibility
+    const backToTopBtn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      if (!backToTopBtn) return;
+      if (window.scrollY > 500) {
+        backToTopBtn.classList.remove('hidden');
+        backToTopBtn.classList.add('flex');
+      } else {
+        backToTopBtn.classList.add('hidden');
+        backToTopBtn.classList.remove('flex');
+      }
+    });
+  </script>
+</body>
+</html>

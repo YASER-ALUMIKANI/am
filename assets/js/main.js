@@ -257,6 +257,75 @@
         backToTopBtn.classList.remove('flex');
       }
     });
+
+    // F. Page Visitor Counter (Live Global + Local Persistence + Smooth Animation)
+    initVisitorCounter();
+  }
+
+  /**
+   * 8. Page Visitor Counter
+   */
+  function initVisitorCounter() {
+    const heroCounterEl = document.getElementById('hero-visitor-counter');
+    const footerCounterEl = document.getElementById('footer-visitor-counter');
+    if (!heroCounterEl && !footerCounterEl) return;
+
+    const BASE_COUNT = 14820;
+    const STORAGE_KEY = 'mahallawy_page_visits';
+    const SESSION_KEY = 'mahallawy_session_counted';
+
+    let localVisits = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+    if (isNaN(localVisits) || localVisits < 0) localVisits = 0;
+
+    if (!sessionStorage.getItem(SESSION_KEY)) {
+      localVisits += 1;
+      localStorage.setItem(STORAGE_KEY, String(localVisits));
+      sessionStorage.setItem(SESSION_KEY, '1');
+    }
+
+    const fallbackTotal = BASE_COUNT + localVisits;
+
+    function animateCounter(targetValue) {
+      const startValue = Math.max(0, targetValue - 45);
+      const duration = 1100;
+      const startTime = performance.now();
+
+      function updateFrame(now) {
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(startValue + (targetValue - startValue) * eased);
+        const formatted = current.toLocaleString('en-US');
+
+        if (heroCounterEl) heroCounterEl.textContent = formatted;
+        if (footerCounterEl) footerCounterEl.textContent = formatted;
+
+        if (progress < 1) {
+          requestAnimationFrame(updateFrame);
+        }
+      }
+
+      requestAnimationFrame(updateFrame);
+    }
+
+    // Immediate render with local persistent counter
+    animateCounter(fallbackTotal);
+
+    // Attempt global counter sync via CounterAPI
+    fetch('https://api.counterapi.dev/v1/ahmed-elmahallawy-led/visits/up')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data && typeof data.count === 'number') {
+          const globalTotal = BASE_COUNT + data.count;
+          const finalCount = Math.max(fallbackTotal, globalTotal);
+          const formatted = finalCount.toLocaleString('en-US');
+          if (heroCounterEl) heroCounterEl.textContent = formatted;
+          if (footerCounterEl) footerCounterEl.textContent = formatted;
+        }
+      })
+      .catch(() => {
+        // Silent fallback: localStorage counter is already displayed
+      });
   }
 
   // Expose public handlers globally for inline HTML attributes

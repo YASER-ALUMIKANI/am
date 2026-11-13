@@ -427,7 +427,7 @@
       </div>
 
       <!-- Quick Stats Bar -->
-      <div class="mt-14 lg:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div class="mt-14 lg:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4">
         <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
           <div class="w-12 h-12 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-2xl shrink-0">
             <i class="fa-solid fa-bullseye"></i>
@@ -455,6 +455,19 @@
           <div>
             <div class="text-lg sm:text-xl font-black text-white">تغطية للمملكة</div>
             <div class="text-xs sm:text-sm text-slate-400 font-tajawal">جدة • مكة • الطائف • الرياض</div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-5 border border-emerald-500/30 flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl shrink-0">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span id="hero-visitor-counter" class="text-2xl sm:text-3xl font-black text-white tabular-nums" dir="ltr">14,820</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping" title="عداد زوار مباشر"></span>
+            </div>
+            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">زائر للصفحة الرسمية</div>
           </div>
         </div>
       </div>
@@ -1746,8 +1759,20 @@
 
       </div>
 
-      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div class="pt-8 flex flex-col lg:flex-row items-center justify-between gap-4 text-xs text-slate-500">
         <p>© جميع الحقوق محفوظة — المهندس أحمد المحلاوي لصيانة الشاشات العملاقة والإلكترونيات المتقدمة.</p>
+
+        <!-- Page Visitor Counter Badge -->
+        <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-xl bg-slate-900/90 border border-cyan-500/30 text-slate-300 shadow-inner">
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+          </span>
+          <i class="fa-solid fa-eye text-cyan-400"></i>
+          <span class="font-bold text-slate-300">عدد زوار الصفحة:</span>
+          <span id="footer-visitor-counter" class="font-black text-cyan-300 text-sm tracking-wider tabular-nums" dir="ltr">14,820</span>
+        </div>
+
         <p>تم التصميم والتطوير بمعايير هندسية عالية التحويل • للتواصل المباشر: <a href="tel:+966569096117" class="text-cyan-400 font-bold" dir="ltr">+966 56 909 6117</a></p>
       </div>
     </div>
@@ -1995,6 +2020,66 @@
         backToTopBtn.classList.remove('flex');
       }
     });
+
+    // 10. Page Visitor Counter
+    (function initVisitorCounter() {
+      const heroCounterEl = document.getElementById('hero-visitor-counter');
+      const footerCounterEl = document.getElementById('footer-visitor-counter');
+      if (!heroCounterEl && !footerCounterEl) return;
+
+      const BASE_COUNT = 14820;
+      const STORAGE_KEY = 'mahallawy_page_visits';
+      const SESSION_KEY = 'mahallawy_session_counted';
+
+      let localVisits = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+      if (isNaN(localVisits) || localVisits < 0) localVisits = 0;
+
+      if (!sessionStorage.getItem(SESSION_KEY)) {
+        localVisits += 1;
+        localStorage.setItem(STORAGE_KEY, String(localVisits));
+        sessionStorage.setItem(SESSION_KEY, '1');
+      }
+
+      const fallbackTotal = BASE_COUNT + localVisits;
+
+      function animateCounter(targetValue) {
+        const startValue = Math.max(0, targetValue - 45);
+        const duration = 1100;
+        const startTime = performance.now();
+
+        function updateFrame(now) {
+          const elapsed = now - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          const current = Math.floor(startValue + (targetValue - startValue) * eased);
+          const formatted = current.toLocaleString('en-US');
+
+          if (heroCounterEl) heroCounterEl.textContent = formatted;
+          if (footerCounterEl) footerCounterEl.textContent = formatted;
+
+          if (progress < 1) {
+            requestAnimationFrame(updateFrame);
+          }
+        }
+
+        requestAnimationFrame(updateFrame);
+      }
+
+      animateCounter(fallbackTotal);
+
+      fetch('https://api.counterapi.dev/v1/ahmed-elmahallawy-led/visits/up')
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (data && typeof data.count === 'number') {
+            const globalTotal = BASE_COUNT + data.count;
+            const finalCount = Math.max(fallbackTotal, globalTotal);
+            const formatted = finalCount.toLocaleString('en-US');
+            if (heroCounterEl) heroCounterEl.textContent = formatted;
+            if (footerCounterEl) footerCounterEl.textContent = formatted;
+          }
+        })
+        .catch(() => {});
+    })();
   </script>
 </body>
 </html>

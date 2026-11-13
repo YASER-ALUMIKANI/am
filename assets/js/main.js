@@ -205,7 +205,7 @@
           (window.MAHALLAWY_DATA &&
             window.MAHALLAWY_DATA.engineer &&
             window.MAHALLAWY_DATA.engineer.whatsappNumber) ||
-          '966545303140';
+          '966569096117';
 
         const waMessage =
           `السلام عليكم باشمهندس أحمد المحلاوي،\n` +
@@ -224,7 +224,7 @@
           whatsappSubmitLink.href = waUrl;
         }
         if (formSummaryText) {
-          formSummaryText.innerText = `شكراً لك (${name}) من (${city}). تم تجهيز تفاصيل طلبك (${service} — مقاس ${pitch}). اضغط على الزر أدناه لإرسالها مباشرة إلى واتساب المهندس أحمد المحلاوي (0545303140).`;
+          formSummaryText.innerText = `شكراً لك (${name}) من (${city}). تم تجهيز تفاصيل طلبك (${service} — مقاس ${pitch}). اضغط على الزر أدناه لإرسالها مباشرة إلى واتساب المهندس أحمد المحلاوي (+966 56 909 6117).`;
         }
         if (formSuccessState) {
           formSuccessState.classList.remove('hidden');

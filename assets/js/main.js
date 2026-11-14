@@ -263,7 +263,7 @@
   }
 
   /**
-   * 8. Page Visitor Counter
+   * 8. Page Visitor Counter (Increases +1 on every page load / refresh)
    */
   function initVisitorCounter() {
     const heroCounterEl = document.getElementById('hero-visitor-counter');
@@ -272,22 +272,19 @@
 
     const BASE_COUNT = 100;
     const STORAGE_KEY = 'mahallawy_page_visits';
-    const SESSION_KEY = 'mahallawy_session_counted';
 
     let localVisits = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
     if (isNaN(localVisits) || localVisits < 0) localVisits = 0;
 
-    if (!sessionStorage.getItem(SESSION_KEY)) {
-      localVisits += 1;
-      localStorage.setItem(STORAGE_KEY, String(localVisits));
-      sessionStorage.setItem(SESSION_KEY, '1');
-    }
+    // Increase +1 on every page load / refresh
+    localVisits += 1;
+    localStorage.setItem(STORAGE_KEY, String(localVisits));
 
     const fallbackTotal = BASE_COUNT + localVisits;
 
     function animateCounter(targetValue) {
-      const startValue = Math.max(0, targetValue - 15);
-      const duration = 1100;
+      const startValue = Math.max(BASE_COUNT, targetValue - 10);
+      const duration = 900;
       const startTime = performance.now();
 
       function updateFrame(now) {
@@ -311,20 +308,23 @@
     // Immediate render with local persistent counter
     animateCounter(fallbackTotal);
 
-    // Attempt global counter sync via CounterAPI
-    fetch('https://api.counterapi.dev/v1/ahmed-elmahallawy-led/visits/up')
+    // Sync with global CounterAPI (no-store so every refresh increments globally too)
+    fetch('https://api.counterapi.dev/v1/ahmed-elmahallawy-led/visits/up', { cache: 'no-store' })
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (data && typeof data.count === 'number') {
           const globalTotal = BASE_COUNT + data.count;
           const finalCount = Math.max(fallbackTotal, globalTotal);
+          if (finalCount > fallbackTotal) {
+            localStorage.setItem(STORAGE_KEY, String(finalCount - BASE_COUNT));
+          }
           const formatted = finalCount.toLocaleString('en-US');
           if (heroCounterEl) heroCounterEl.textContent = formatted;
           if (footerCounterEl) footerCounterEl.textContent = formatted;
         }
       })
       .catch(() => {
-        // Silent fallback: localStorage counter is already displayed
+        // Silent fallback: localStorage counter is already displayed and incremented
       });
   }
 

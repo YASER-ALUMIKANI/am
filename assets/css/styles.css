@@ -19,7 +19,9 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5.5rem;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -27,8 +29,22 @@ body {
   background-color: var(--bg-navy-950);
   color: #f8fafc;
   overflow-x: hidden;
+  max-width: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile-Specific Touch & Layout Refinements */
+@media (max-width: 640px) {
+  .glass-card-hover:hover {
+    transform: none;
+  }
+  input,
+  select,
+  textarea {
+    font-size: 16px !important; /* Prevents iOS Safari auto-zoom on form focus */
+  }
 }
 
 /* 2. Subtle LED Matrix Background Effect */

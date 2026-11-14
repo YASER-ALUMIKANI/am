@@ -77,20 +77,20 @@
 <body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-slate-950">
 
   <!-- Top Announcement Bar -->
-  <div class="bg-gradient-to-l from-slate-900 via-cyan-950/80 to-slate-900 border-b border-cyan-500/20 text-xs sm:text-sm py-2.5 px-4">
+  <div class="bg-gradient-to-l from-slate-900 via-cyan-950/80 to-slate-900 border-b border-cyan-500/20 text-[11px] sm:text-sm py-2 px-3 sm:px-4">
     <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
-      <div class="flex items-center gap-2 text-cyan-300 font-medium">
-        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/40">
-          <i class="fa-solid fa-microscope text-[11px]"></i>
+      <div class="flex items-center gap-1.5 sm:gap-2 text-cyan-300 font-medium">
+        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 shrink-0">
+          <i class="fa-solid fa-microscope text-[10px]"></i>
         </span>
-        <span>صيانة وبرمجة شاشات عرض الليد إسكرين العملاقة (<strong>LED Screens P1 - P5</strong>) بدقة المصنع 100%</span>
+        <span class="truncate sm:whitespace-normal">صيانة وبرمجة شاشات الليد العملاقة (<strong>LED P1 - P5</strong>) بدقة المصنع 100%</span>
       </div>
-      <div class="flex items-center gap-4 text-slate-300">
+      <div class="flex items-center gap-3 sm:gap-4 text-slate-300 mr-auto sm:mr-0">
         <span class="hidden md:inline-flex items-center gap-1.5">
           <i class="fa-solid fa-location-dot text-cyan-400"></i>
           جدة • مكة المكرمة • الطائف • الرياض • كافة أنحاء المملكة
         </span>
-        <a href="tel:+966569096117" class="inline-flex items-center gap-1.5 text-amber-400 hover:text-amber-300 font-bold transition">
+        <a href="tel:+966569096117" class="inline-flex items-center gap-1.5 text-amber-400 hover:text-amber-300 font-bold transition shrink-0">
           <i class="fa-solid fa-phone-volume animate-bounce"></i>
           <span dir="ltr">+966 56 909 6117</span>
         </a>
@@ -100,31 +100,25 @@
 
   <!-- 1. HEADER / NAVIGATION -->
   <header id="main-header" class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-xl border-b border-slate-800/80 transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-20">
+    <div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
         
         <!-- Brand Logo -->
-        <a href="#hero" class="flex items-center gap-3 group focus:outline-none">
-          <div class="relative w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 via-sky-600 to-blue-700 p-[1px] shadow-glow-cyan">
+        <a href="#hero" class="flex items-center gap-2.5 sm:gap-3 group focus:outline-none min-w-0">
+          <div class="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-cyan-500 via-sky-600 to-blue-700 p-[1px] shadow-glow-cyan shrink-0">
             <div class="w-full h-full bg-slate-950 rounded-[11px] flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-transparent"></div>
-              <i class="fa-solid fa-microchip text-cyan-400 text-xl group-hover:scale-110 transition-transform"></i>
+              <i class="fa-solid fa-microchip text-cyan-400 text-lg sm:text-xl group-hover:scale-110 transition-transform"></i>
             </div>
-            <span class="absolute -bottom-1 -left-1 w-4 h-4 rounded-full bg-emerald-500 border-2 border-slate-950 flex items-center justify-center" title="موثق عبر النفاذ الوطني">
-              <i class="fa-solid fa-check text-[8px] text-slate-950 font-black"></i>
-            </span>
           </div>
-          <div>
+          <div class="min-w-0">
             <div class="flex items-center gap-2">
-              <span class="text-lg sm:text-xl font-extrabold tracking-tight bg-gradient-to-l from-white via-slate-100 to-cyan-300 bg-clip-text text-transparent">
+              <span class="text-base sm:text-xl font-extrabold tracking-tight bg-gradient-to-l from-white via-slate-100 to-cyan-300 bg-clip-text text-transparent truncate">
                 م. أحمد المحلاوي
               </span>
-              <span class="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
-                <i class="fa-solid fa-circle-check"></i> موثق
-              </span>
             </div>
-            <p class="text-[11px] sm:text-xs text-slate-400 font-tajawal">
-              خبير صيانة الشاشات العملاقة <span class="text-cyan-400 font-semibold">LED Screens</span> والإلكترونيات
+            <p class="text-[10px] sm:text-xs text-slate-400 font-tajawal truncate">
+              خبير صيانة الشاشات العملاقة <span class="text-cyan-400 font-semibold">LED Screens</span>
             </p>
           </div>
         </a>
@@ -153,13 +147,16 @@
           </a>
         </div>
 
-        <!-- Mobile Menu Button -->
-        <div class="flex items-center gap-2 xl:hidden">
-          <a href="tel:+966569096117" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/30" aria-label="اتصال">
-            <i class="fa-solid fa-phone"></i>
+        <!-- Mobile Quick Action & Menu Buttons -->
+        <div class="flex items-center gap-1.5 sm:gap-2 xl:hidden shrink-0">
+          <a href="https://wa.me/966569096117" target="_blank" rel="noopener noreferrer" class="md:hidden inline-flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30" aria-label="واتساب">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
           </a>
-          <button id="mobile-menu-btn" type="button" class="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-slate-900 text-slate-200 hover:text-cyan-400 border border-slate-700 focus:outline-none" aria-label="القائمة">
-            <i id="mobile-menu-icon" class="fa-solid fa-bars text-xl"></i>
+          <a href="tel:+966569096117" class="md:hidden inline-flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/30" aria-label="اتصال">
+            <i class="fa-solid fa-phone text-sm"></i>
+          </a>
+          <button id="mobile-menu-btn" type="button" class="inline-flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-slate-900 text-slate-200 hover:text-cyan-400 border border-slate-700 focus:outline-none" aria-label="القائمة">
+            <i id="mobile-menu-icon" class="fa-solid fa-bars text-lg sm:text-xl"></i>
           </button>
         </div>
 
@@ -356,47 +353,47 @@
       </div>
 
       <!-- Quick Stats Bar -->
-      <div class="mt-14 lg:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
-          <div class="w-12 h-12 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-2xl shrink-0">
+      <div class="mt-10 sm:mt-14 lg:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+        <div class="glass-card rounded-2xl p-3.5 sm:p-5 border border-slate-800/90 flex flex-col sm:flex-row items-start sm:items-center gap-2.5 sm:gap-4">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-lg sm:text-2xl shrink-0">
             <i class="fa-solid fa-bullseye"></i>
           </div>
           <div>
-            <div class="text-2xl sm:text-3xl font-black text-white">100%</div>
-            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">إرجاع المديول لوضع المصنع</div>
+            <div class="text-xl sm:text-3xl font-black text-white">100%</div>
+            <div class="text-[11px] sm:text-sm text-slate-400 font-tajawal leading-snug">إرجاع المديول لوضع المصنع</div>
           </div>
         </div>
 
-        <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
-          <div class="w-12 h-12 rounded-2xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400 text-2xl shrink-0">
+        <div class="glass-card rounded-2xl p-3.5 sm:p-5 border border-slate-800/90 flex flex-col sm:flex-row items-start sm:items-center gap-2.5 sm:gap-4">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400 text-lg sm:text-2xl shrink-0">
             <i class="fa-solid fa-border-all"></i>
           </div>
           <div>
-            <div class="text-2xl sm:text-3xl font-black text-white" dir="ltr">P1 → P5</div>
-            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">دعم +20 مقاس بكسل دقيق</div>
+            <div class="text-xl sm:text-3xl font-black text-white" dir="ltr">P1 → P5</div>
+            <div class="text-[11px] sm:text-sm text-slate-400 font-tajawal leading-snug">دعم +20 مقاس بكسل دقيق</div>
           </div>
         </div>
 
-        <div class="glass-card rounded-2xl p-5 border border-slate-800/90 flex items-center gap-4">
-          <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-2xl shrink-0">
+        <div class="glass-card rounded-2xl p-3.5 sm:p-5 border border-slate-800/90 flex flex-col sm:flex-row items-start sm:items-center gap-2.5 sm:gap-4">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-lg sm:text-2xl shrink-0">
             <i class="fa-solid fa-map-location-dot"></i>
           </div>
           <div>
-            <div class="text-lg sm:text-xl font-black text-white">تغطية للمملكة</div>
-            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">جدة • مكة • الطائف • الرياض</div>
+            <div class="text-base sm:text-xl font-black text-white">تغطية للمملكة</div>
+            <div class="text-[11px] sm:text-sm text-slate-400 font-tajawal leading-snug">جدة • مكة • الطائف • الرياض</div>
           </div>
         </div>
 
-        <div class="glass-card rounded-2xl p-5 border border-emerald-500/30 flex items-center gap-4">
-          <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl shrink-0">
+        <div class="glass-card rounded-2xl p-3.5 sm:p-5 border border-emerald-500/30 flex flex-col sm:flex-row items-start sm:items-center gap-2.5 sm:gap-4">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-lg sm:text-2xl shrink-0">
             <i class="fa-solid fa-eye"></i>
           </div>
           <div>
             <div class="flex items-center gap-2">
-              <span id="hero-visitor-counter" class="text-2xl sm:text-3xl font-black text-white tabular-nums" dir="ltr">100</span>
+              <span id="hero-visitor-counter" class="text-xl sm:text-3xl font-black text-white tabular-nums" dir="ltr">100</span>
               <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping" title="عداد زوار مباشر"></span>
             </div>
-            <div class="text-xs sm:text-sm text-slate-400 font-tajawal">زائر للصفحة الرسمية</div>
+            <div class="text-[11px] sm:text-sm text-slate-400 font-tajawal leading-snug">زائر للصفحة الرسمية</div>
           </div>
         </div>
       </div>
@@ -883,20 +880,20 @@
               </div>
 
               <!-- Stage Switcher Tabs Overlay -->
-              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+              <div class="absolute bottom-2.5 sm:bottom-3 right-2.5 sm:right-3 left-2.5 sm:left-3 flex items-center justify-between gap-1 sm:gap-2 bg-slate-950/90 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border border-slate-800">
                 <button type="button"
                         onclick="switchProjectStage('proj1', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-hCj5fheg5DUEgJ.jpg', 'قبل الصيانة: بكسلات مكسورة وفراغات سوداء', 'bg-rose-500 text-white')"
-                        class="proj1-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
-                  1. قبل الصيانة (العطل)
+                        class="proj1-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
+                  1. قبل الصيانة
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj1', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/750x1000-1_-0rswmFev5aG6aa.jpg', 'أثناء الصيانة: فك المديول وفحص الباورسبلاي والتوصيلات', 'bg-amber-500 text-slate-950')"
-                        class="proj1-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                        class="proj1-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
                   2. أثناء الصيانة
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj1', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-96CsOIJVTKC6rw.jpg', 'بعد الصيانة: استعادة التجانس الكامل للكابينة 100%', 'bg-emerald-500 text-slate-950')"
-                        class="proj1-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                        class="proj1-tab stage-tab-active flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold border border-transparent transition leading-tight">
                   3. بعد الصيانة 100%
                 </button>
               </div>
@@ -944,20 +941,20 @@
                 بعد الإنقاذ (100%)
               </div>
 
-              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+              <div class="absolute bottom-2.5 sm:bottom-3 right-2.5 sm:right-3 left-2.5 sm:left-3 flex items-center justify-between gap-1 sm:gap-2 bg-slate-950/90 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border border-slate-800">
                 <button type="button"
                         onclick="switchProjectStage('proj2', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1156x520-1_-rDiFXyIM5ootHt.jpg', 'قبل الصيانة: تشوهات وخطوط كارثية بعد عبث غير المتخصصين', 'bg-rose-500 text-white')"
-                        class="proj2-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
-                  1. قبل (تشوه كارثي)
+                        class="proj2-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
+                  1. قبل (تشوه)
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj2', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-zzqAE7pQ62AV8y.jpg', 'أثناء الصيانة: إعادة تأهيل الكبائن والبوردات في المعمل', 'bg-amber-500 text-slate-950')"
-                        class="proj2-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                        class="proj2-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
                   2. في المعمل
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj2', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-10-25/1000x750-1_-LJNBXgEZo7U2HI.jpg', 'بعد الصيانة: الكابينة تعمل بنسبة 100% بإضاءة صافية ومتجانسة', 'bg-emerald-500 text-slate-950')"
-                        class="proj2-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                        class="proj2-tab stage-tab-active flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold border border-transparent transition leading-tight">
                   3. بعد الصيانة 100%
                 </button>
               </div>
@@ -1005,20 +1002,20 @@
                 وضع المصنع (100%)
               </div>
 
-              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+              <div class="absolute bottom-2.5 sm:bottom-3 right-2.5 sm:right-3 left-2.5 sm:left-3 flex items-center justify-between gap-1 sm:gap-2 bg-slate-950/90 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border border-slate-800">
                 <button type="button"
                         onclick="switchProjectStage('proj3', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-b2av5WYz04wbHT.jpg', 'قبل الصيانة: أعطال خطوط خضراء عمودية وبكسلات تالفة', 'bg-rose-500 text-white')"
-                        class="proj3-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
-                  1. قبل (خطوط خضراء)
+                        class="proj3-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
+                  1. قبل (خطوط)
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj3', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-5J0WrBQKhpZgfA.jpg', 'أثناء الصيانة: لحام البكسلات وتركيب الشبك والماسكات الجديدة', 'bg-amber-500 text-slate-950')"
-                        class="proj3-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
-                  2. تركيب الماسكات
+                        class="proj3-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
+                  2. تركيب الماسك
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj3', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-4-28/1000x750-1_-ZCmlY9YwDkPdMN.jpg', 'بعد الصيانة: إضاءة كاملة ومتجانسة 100% على الكابينة', 'bg-emerald-500 text-slate-950')"
-                        class="proj3-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                        class="proj3-tab stage-tab-active flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold border border-transparent transition leading-tight">
                   3. بعد الصيانة 100%
                 </button>
               </div>
@@ -1066,20 +1063,20 @@
                 تشغيل كامل (100%)
               </div>
 
-              <div class="absolute bottom-3 right-3 left-3 flex items-center justify-between gap-2 bg-slate-950/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800">
+              <div class="absolute bottom-2.5 sm:bottom-3 right-2.5 sm:right-3 left-2.5 sm:left-3 flex items-center justify-between gap-1 sm:gap-2 bg-slate-950/90 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border border-slate-800">
                 <button type="button"
                         onclick="switchProjectStage('proj4', 'before', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/816x612-1_-wgtXw7Kn7Oc5tW.jpg', 'قبل التشغيل: الشاشة العملاقة مثبتة على الـ Truss داخل القاعة', 'bg-slate-700 text-white')"
-                        class="proj4-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
+                        class="proj4-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
                   1. قبل التشغيل
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj4', 'during', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/750x1000-1_-3mJpHIKLzcLeVo.jpg', 'أثناء الصيانة: فحص وإصلاح البكسلات المفقودة على المديولات', 'bg-amber-500 text-slate-950')"
-                        class="proj4-tab flex-1 py-2 px-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white border border-transparent transition">
-                  2. صيانة المديولات
+                        class="proj4-tab flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold text-slate-300 hover:text-white border border-transparent transition leading-tight">
+                  2. صيانة المديول
                 </button>
                 <button type="button"
                         onclick="switchProjectStage('proj4', 'after', 'https://mimg6cdn.haraj.com.sa/userfiles30/2025-3-2/1000x750-1_-oOYwoeLsO1n2PJ.jpg', 'بعد الصيانة والبرمجة: الشاشة العملاقة تعمل بكفاءة وألوان متطابقة 100%', 'bg-emerald-500 text-slate-950')"
-                        class="proj4-tab stage-tab-active flex-1 py-2 px-2 rounded-xl text-xs font-bold border border-transparent transition">
+                        class="proj4-tab stage-tab-active flex-1 py-1.5 sm:py-2 px-1 sm:px-2 rounded-xl text-[11px] sm:text-xs font-bold border border-transparent transition leading-tight">
                   3. بعد البرمجة 100%
                 </button>
               </div>
@@ -1620,7 +1617,7 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-slate-950 border-t border-slate-800/90 pt-14 pb-10 text-sm text-slate-400">
+  <footer class="bg-slate-950 border-t border-slate-800/90 pt-12 sm:pt-14 pb-24 sm:pb-12 text-sm text-slate-400">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800/80">
         

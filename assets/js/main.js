@@ -270,7 +270,7 @@
     const footerCounterEl = document.getElementById('footer-visitor-counter');
     if (!heroCounterEl && !footerCounterEl) return;
 
-    const BASE_COUNT = 14820;
+    const BASE_COUNT = 100;
     const STORAGE_KEY = 'mahallawy_page_visits';
     const SESSION_KEY = 'mahallawy_session_counted';
 
@@ -286,7 +286,7 @@
     const fallbackTotal = BASE_COUNT + localVisits;
 
     function animateCounter(targetValue) {
-      const startValue = Math.max(0, targetValue - 45);
+      const startValue = Math.max(0, targetValue - 15);
       const duration = 1100;
       const startTime = performance.now();
 
